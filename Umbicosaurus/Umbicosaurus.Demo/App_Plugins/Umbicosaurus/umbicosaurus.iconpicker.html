@@ -1,0 +1,102 @@
+﻿<form name="IconPickerForm"
+      ng-controller="Umbicosaurus.Editors.IconPickerController as vm"
+      novalidate
+      val-form-manager>
+
+    <umb-editor-view>
+
+        <umb-editor-header name="'🦖 ' + model.title"
+                           name-locked="true"
+                           hide-alias="true"
+                           hide-icon="true"
+                           hide-description="true">
+        </umb-editor-header>
+
+        <umb-editor-container>
+            <umb-box>
+                <umb-box-content>
+
+                    <div class="umb-control-group">
+                        <umb-search-filter input-id="icon-search"
+                                           model="searchTerm"
+                                           label-key="placeholders_filter"
+                                           text="🦖 Type to search..."
+                                           css-class="w-100"
+                                           auto-focus="true">
+                        </umb-search-filter>
+                    </div>
+
+                    <div class="umb-control-group">
+                        <umb-color-swatches use-color-class="true"
+                                            colors="vm.colors"
+                                            selected-color="vm.color"
+                                            size="s"
+                                            on-select="vm.selectColor(color)">
+                        </umb-color-swatches>
+                    </div>
+
+                    <!--<umb-load-indicator ng-if="vm.loading"></umb-load-indicator>-->
+                    <div class="umbicosaurus-loader umbicosaurus-dino" ng-if="vm.loading">
+                        <img src="/App_Plugins/Umbicosaurus/img/038-think.svg" alt="Dinosaur thinking..." title="Thinking..." />
+                    </div>
+
+                    <div class="umb-control-group" ng-show="!vm.loading && filtered.length > 0 && model.icon && vm.thesaurus[model.icon].related.length > 0">
+                        <h2>Related icons</h2>
+                        <ul class="umb-iconpicker" ng-class="vm.color.value">
+                            <li class="umb-iconpicker-item" ng-class="{'-selected': icon.name == model.icon}" ng-repeat="icon in vm.thesaurus[model.icon].related">
+                                <button type="button" title="{{icon}}" ng-click="vm.selectIcon(icon, vm.color.value)">
+                                    <umb-icon class="umb-iconpicker-svg {{icon}} large" icon="{{icon}}"></umb-icon>
+                                    <span class="sr-only"><localize key="buttons_select">Select</localize> {{icon}}</span>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="umb-control-group" ng-show="!vm.loading && filtered.length > 0 ">
+                        <h2 ng-if="model.icon && vm.thesaurus[model.icon].related.length > 0">Other icons</h2>
+
+                        <ul class="umb-iconpicker" ng-class="vm.color.value" ng-show="vm.icons">
+                            <li class="umb-iconpicker-item" ng-class="{'-selected': icon.name == model.icon}" ng-repeat="icon in filtered = (vm.icons | filter: searchTerm | orderBy:['group','name']) track by $id(icon)">
+                                <button type="button" title="{{icon.name}}" ng-click="vm.selectIcon(icon.name, vm.color.value)">
+                                    <umb-icon class="umb-iconpicker-svg {{icon.name}} large" icon="{{icon.name}}"></umb-icon>
+                                    <span class="sr-only"><localize key="buttons_select">Select</localize> {{icon.name}}</span>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+
+                        <umb-empty-state ng-if="filtered.length === 0"
+                                         position="center">
+                            <div class="umbicosaurus-dino">
+                                <img src="/App_Plugins/Umbicosaurus/img/035-crying.svg" alt="" />
+                            </div>
+                            <localize key="defaultdialogs_noIconsFound">No icons were found.</localize>
+                        </umb-empty-state>
+
+                </umb-box-content>
+            </umb-box>
+        </umb-editor-container>
+
+        <umb-editor-footer>
+
+            <div>Dinosaur icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+            <umb-editor-footer-content-right>
+                <umb-button type="button"
+                            button-style="link"
+                            label-key="general_close"
+                            shortcut="esc"
+                            action="vm.close()">
+                </umb-button>
+                <umb-button type="button"
+                            button-style="success"
+                            label-key="general_submit"
+                            state="vm.saveButtonState"
+                            action="vm.submit(model)">
+                </umb-button>
+            </umb-editor-footer-content-right>
+        </umb-editor-footer>
+
+    </umb-editor-view>
+
+</form>

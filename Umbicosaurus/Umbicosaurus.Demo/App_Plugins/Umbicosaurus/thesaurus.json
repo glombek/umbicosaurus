@@ -1,0 +1,3037 @@
+﻿{
+  "icon-zoom-out": {
+    "thesaurus": [ "magnifying glass", "shring", "smaller" ],
+    "group": "action zoom",
+    "related": [ "icon-zoom-in" ]
+  },
+  "icon-zom-out": {
+    "thesaurus": [ ],
+    "group": "action zoom",
+    "related": [ "icon-zoom-in" ]
+  },
+  "icon-truck": {
+    "thesaurus": [ "lorry", "vehicle" ],
+    "group": "item vehicles",
+    "related": []
+  },
+  "icon-zoom-in": {
+    "thesaurus": [ "magnifying glass", "grow", "bigger" ],
+    "group": "action zoom",
+    "related": [ "icon-zoom-out" ]
+  },
+  "icon-zip": {
+    "thesaurus": [ "zipper" ],
+    "group": "file",
+    "related": []
+  },
+  "icon-axis-rotation": {
+    "thesaurus": [ "refresh", "recycle" ],
+    "group": "action rotate",
+    "related": [ "icon-axis-rotation-2", "icon-axis-rotation-3" ]
+  },
+  "icon-yen-bag": {
+    "thesaurus": [ "cash", "swag" ],
+    "group": "item money bag",
+    "related": []
+  },
+  "icon-axis-rotation-2": {
+    "thesaurus": [ "refresh", "recycle" ],
+    "group": "action rotate",
+    "related": [ "icon-axis-rotation", "icon-axis-rotation-3" ]
+  },
+  "icon-axis-rotation-3": {
+    "thesaurus": [ "refresh", "recycle" ],
+    "group": "action rotate",
+    "related": [ "icon-axis-rotation", "icon-axis-rotation-2" ]
+  },
+  "icon-wrench": {
+    "thesaurus": ["spanner"],
+    "group": "item tools",
+    "related": [ "icon-umb-settings", "icon-tools" ]
+  },
+  "icon-wine-glass": {
+    "thesaurus": [],
+    "group": "item household food drink",
+    "related": [ "icon-cocktail", "icon-beer-glass", "icon-takeaway-cup", "icon-coffee" ]
+  },
+  "icon-wrong": {
+    "thesaurus": [ "cross", "x", "exit", "quit", "close", "error" ],
+    "group": "action boolean",
+    "related": [ "icon-delete", "icon-block", "icon-delete-key", "icon-backspace", "icon-check", "icon-checkbox", "icon-checkbox-dotted-active", "icon-circle-dotted-active", "icon-application-error" ]
+  },
+  "icon-windows": {
+    "thesaurus": ["microsoft", "ms"],
+    "group": "item logo",
+    "related": []
+  },
+  "icon-window-sizes": {
+    "thesaurus": [ "square", "multiple", "rectangles", "three", "3", "box"],
+    "group": "action window",
+    "related": []
+  },
+  "icon-window-popin": {
+    "thesaurus": ["in", "arrow", "box", "rectangle", "square"],
+    "group": "action window",
+    "related": []
+  },
+  "icon-wifi": {
+    "thesaurus": ["internet", "broadcast", "waves"],
+    "group": "item household tech",
+    "related": []
+  },
+  "icon-width": {
+    "thesaurus": ["arrow", "size", "resize", "length"],
+    "group": "action size",
+    "related": []
+  },
+  "icon-weight": {
+    "thesaurus": ["kg", "tonne", "mass", "heavy", "kilo", "kilogram" ],
+    "group": "item",
+    "related": []
+  },
+  "icon-war": {
+    "thesaurus": ["tank"],
+    "group": "item vehicle",
+    "related": []
+  },
+  "icon-wand": {
+    "thesaurus": ["magic", "wizard"],
+    "group": "item",
+    "related": []
+  },
+  "icon-wallet": {
+    "thesaurus": ["purse", "money", "cash", "pay", "payment", "checkout"],
+    "group": "item money",
+    "related": []
+  },
+  "icon-wall-plug": {
+    "thesaurus": [ "power", "electricity", "cable" ],
+    "group": "item household tech",
+    "related": []
+  },
+  "icon-voice": {
+    "thesaurus": ["microphone", "podcast", "audio", "record"],
+    "group": "item household media",
+    "related": []
+  },
+  "icon-video": {
+    "thesaurus": ["media", "movie", "film", "camera", "record" ],
+    "group": "item household media",
+    "related": []
+  },
+  "icon-vcard": {
+    "thesaurus": ["business card", "id card","profile", "persona", "person", "user"],
+    "group": "file",
+    "related": [ "icon-umb-members" ]
+  },
+  "icon-utilities": {
+    "thesaurus": [ "toolbox", "tools" ],
+    "group": "item tools",
+    "related": ["icon-briefcase"]
+  },
+  "icon-users": {
+    "thesaurus": ["people", "three", "3", "men", "man"],
+    "group": "user",
+    "related": [ "icon-users-alt", "icon-user-females", "icon-user-females-alt", "icon-user", "icon-user-female", "icon-umb-users" ]
+  },
+  "icon-users-alt": {
+    "thesaurus": [ "people", "three", "3", "men", "man"],
+    "group": "user",
+    "related": [ "icon-users-alt", "icon-user-females", "icon-user-females-alt", "icon-user", "icon-user-female", "icon-umb-users" ]
+  },
+  "icon-user": {
+    "thesaurus": [],
+    "group": "user",
+    "related": []
+  },
+  "icon-user-glasses": {
+    "thesaurus": [],
+    "group": "user",
+    "related": []
+  },
+  "icon-user-females": {
+    "thesaurus": [],
+    "group": "user",
+    "related": [ "icon-users-alt", "icon-user-females", "icon-user-females-alt", "icon-user", "icon-user-female", "icon-umb-users" ]
+  },
+  "icon-user-females-alt": {
+    "thesaurus": [],
+    "group": "user",
+    "related": [ "icon-users-alt", "icon-user-females", "icon-user-females-alt", "icon-user", "icon-user-female", "icon-umb-users" ]
+  },
+  "icon-user-female": {
+    "thesaurus": [],
+    "group": "user",
+    "related": []
+  },
+  "icon-usb": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-usb-connector": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-unlocked": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-universal": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-undo": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-umbrella": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-umb-deploy": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-umb-contour": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-umb-settings": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-umb-users": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-umb-media": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-umb-content": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-umb-developer": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-umb-members": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-umb-translation": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-tv": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-tv-old": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-trophy": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-tree": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-trash": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-trash-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-trash-alt-2": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-train": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-trafic": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-traffic-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-top": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-tools": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-timer": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-time": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-t-shirt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-tab-key": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-tab": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-tactics": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-tag": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-tags": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-takeaway-cup": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-target": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-temperatrure-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-temperature": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-terminal": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-theater": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-theif": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-thought-bubble": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-thumb-down": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-thumb-up": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-thumbnail-list": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-thumbnails-small": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-thumbnails": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-ticket": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-sync": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-sweatshirt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-sunny": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-stream": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-store": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-stop": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-stop-hand": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-stop-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-stamp": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-stacked-disks": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-ssd": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-squiggly-line": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-sprout": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-split": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-split-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-speed-gauge": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-speaker": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-sound": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-spades": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-sound-waves": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-shipping-box": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-shipping": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-shoe": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-shopping-basket-alt-2": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-shopping-basket": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-shopping-basket-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-shorts": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-shuffle": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-sience": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-simcard": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-single-note": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-sitemap": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-sleep": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-slideshow": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-smiley-inverted": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-smiley": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-snow": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-sound-low": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-sound-medium": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-sound-off": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-shift": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-shield": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-sharing-iphone": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-share": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-share-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-share-alt-2": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-settings": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-settings-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-settings-alt-2": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-server": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-server-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-sensor": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-security-camera": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-search": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-scull": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-script": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-script-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-screensharing": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-school": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-scan": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-refresh": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-remote": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-remove": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-repeat-one": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-repeat": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-resize": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-reply-arrow": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-return-to-top": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-right-double-arrow": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-road": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-roadsign": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-rocket": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-rss": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-ruler-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-ruler": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-sandbox-toys": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-satellite-dish": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-save": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-safedial": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-safe": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-redo": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-printer-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-planet": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-paste-in": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-os-x": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-navigation-left": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-message": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-lock": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-layers-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-record": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-print": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-plane": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-partly-cloudy": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-ordered-list": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-navigation-last": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-message-unopened": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-location-nearby": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-laptop": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-reception": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-price-yen": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-piracy": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-parental-control": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-operator": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-navigation-horizontal": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-message-open": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-lab": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-location-near-me": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-receipt-yen": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-price-pound": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-pin-location": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-parachute-drop": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-old-phone": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-merge": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-navigation-first": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-locate": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-keyhole": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-receipt-pound": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-price-euro": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-piggy-bank": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-paper-plane": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-old-key": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-navigation-down": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-megaphone": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-loading": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-keychain": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-receipt-euro": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-price-dollar": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-pie-chart": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-paper-plane-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-notepad": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-navigation-bottom": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-meeting": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-keyboard": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-load": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-receipt-dollar": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-previous": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-pictures": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-notepad-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-paper-bag": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-name-badge": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-medicine": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-list": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-key": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-receipt-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-previous-media": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-pictures-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-pants": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-nodes": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-music": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-readonly": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-presentation": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-pictures-alt-2": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-pannel-close": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-next": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-multiple-windows": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-medical-emergency": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-medal": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-link": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-linux-tux": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-junk": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-item-arrangement": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-iphone": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-lightning": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-map": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-multiple-credit-cards": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-next-media": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-panel-show": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-picture": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-power": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-re-post": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-rate": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-rain": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-radio": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-radio-receiver": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-radio-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-quote": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-qr-code": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-pushpin": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-pulse": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-projector": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-play": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-playing-cards": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-playlist": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-plugin": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-podcast": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-poker-chip": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-poll": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-post-it": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-pound-bag": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-power-outlet": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-photo-album": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-phone": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-phone-ring": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-people": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-people-female": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-people-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-people-alt-2": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-pc": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-pause": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-path": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-out": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-outbox": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-outdent": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-page-add": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-page-down": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-page-remove": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-page-restricted": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-page-up": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-paint-roller": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-palette": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-newspaper": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-newspaper-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-network-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-navigational-arrow": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-navigation": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-navigation-vertical": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-navigation-up": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-navigation-top": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-navigation-road": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-navigation-right": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-microscope": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-mindmap": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-molecular-network": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-molecular": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-mountain": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-mouse-cursor": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-mouse": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-movie-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-map-marker": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-movie": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-map-loaction": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-map-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-male-symbol": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-male-and-female": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-mailbox": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-magnet": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-loupe": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-mobile": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-logout": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-log-out": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-layers": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-left-double-arrow": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-layout": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-legal": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-lense": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-library": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-light-down": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-light-up": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-lightbulb-active": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-lightbulb": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-ipad": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-invoice": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-info": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-infinity": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-indent": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-inbox": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-inbox-full": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-inactive-line": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-imac": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-hourglass": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-home": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-grid": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-food": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-favorite": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-door-open-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-diagnostics": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-contrast": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-coins-dollar-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-circle-dotted-active": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-cinema": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-chip": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-chip-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-chess": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-checkbox": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-checkbox-empty": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-checkbox-dotted": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-checkbox-dotted-active": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-check": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-chat": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-chat-active": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-chart": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-chart-curve": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-certificate": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-categories": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-cash-register": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-car": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-caps-lock": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-candy": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-circle-dotted": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-circuits": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-circus": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-client": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-clothes-hanger": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-cloud-drive": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-cloud-upload": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-cloud": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-cloudy": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-clubs": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-cocktail": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-code": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-coffee": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-coin-dollar": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-coin-pound": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-coin-yen": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-coin": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-coins-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-console": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-connection": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-compress": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-company": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-command": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-coin-euro": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-combination-lock": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-combination-lock-open": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-comb": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-columns": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-colorpicker": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-color-bucket": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-coins": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-coins-yen": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-coins-yen-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-coins-pound": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-coins-pound-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-coins-euro": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-coins-euro-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-coins-dollar": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-conversation-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-conversation": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-coverflow": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-credit-card-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-credit-card": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-crop": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-crosshair": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-crown-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-crown": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-cupcake": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-curve": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-cut": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-dashboard": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-defrag": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-delete": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-delete-key": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-departure": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-desk": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-desktop": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-donate": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-dollar-bag": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-documents": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-document": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-document-dashed-line": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-dock-connector": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-dna": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-display": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-disk-image": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-disc": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-directions": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-directions-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-diploma": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-diploma-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-dice": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-diamonds": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-diamond": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-diagonal-arrow": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-diagonal-arrow-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-door-open": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-download-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-download": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-drop": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-eco": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-economy": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-edit": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-eject": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-employee": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-energy-saving-bulb": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-enter": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-equalizer": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-escape": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-ethernet": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-euro-bag": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-exit-fullscreen": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-eye": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-facebook-like": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-factory": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-font": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-folders": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-folder": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-folder-outline": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-folder-open": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-flowerpot": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-flashlight": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-flash": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-flag": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-flag-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-firewire": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-firewall": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-fire": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-fingerprint": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-filter": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-filter-arrows": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-files": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-file-cabinet": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-female-symbol": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-footprints": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-hammer": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-hand-active-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-forking": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-hand-active": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-hand-pointer-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-hand-pointer": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-handprint": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-handshake": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-handtool": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-hard-drive": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-help": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-graduate": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-gps": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-help-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-height": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-globe": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-hearts": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-globe-inverted-europe-africa": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-headset": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-globe-inverted-asia": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-headphones": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-globe-inverted-america": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-hd": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-globe-europe---africa": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-hat": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-globe-asia": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-globe-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-hard-drive-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-glasses": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-gift": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-handtool-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-geometry": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-game": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-fullscreen": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-fullscreen-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-frame": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-frame-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-camera-roll": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-bookmark": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-bill": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-baby-stroller": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-alarm-clock": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-adressbook": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-add": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-activity": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-untitled": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-camcorder": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-calendar": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-calendar-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-calculator": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-bus": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-burn": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-bulleted-list": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-bug": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-brush": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-brush-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-brush-alt-2": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-browser-window": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-briefcase": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-brick": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-brackets": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-box": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-box-open": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-box-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-books": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-billboard": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-bills-dollar": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-bills-euro": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-bills-pound": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-bills-yen": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-bills": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-binarycode": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-binoculars": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-bird": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-birthday-cake": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-blueprint": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-block": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-bluetooth": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-boat-shipping": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-bomb": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-book-alt-2": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-bones": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-book-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-book": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-bill-yen": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-award": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-bill-pound": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-autofill": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-bill-euro": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-auction-hammer": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-bill-dollar": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-attachment": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-bell": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-article": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-bell-off": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-art-easel": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-beer-glass": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-arrow-up": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-battery-low": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-arrow-right": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-battery-full": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-arrow-left": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-bars": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-arrow-down": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-barcode": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-arrivals": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-bar-chart": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-application-window": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-band-aid": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-application-window-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-ball": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-application-error": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-badge-restricted": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-app": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-badge-remove": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-anchor": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-badge-count": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-badge-add": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-alert": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-backspace": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  },
+  "icon-alert-alt": {
+    "thesaurus": [],
+    "group": "",
+    "related": []
+  }
+}
