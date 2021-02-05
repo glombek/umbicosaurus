@@ -1,2 +1,10 @@
-# umbicosaurus
-A thesaurus for the Umbraco icon filter to help when searching for relevant icons
+<img src="/icons/817743-dinosaur-avatars-situations/svg/049-happy.svg" style="width: 40%" alt="" />
+
+# Umbicosaurus
+
+The **Umb**raco **ico**n the**saurus**
+
+A thesaurus for the Umbraco icon filter to help when searching for relevant icons. The icons have alternative keywords (searching for "spanner" will return the wrench icon) as well as groups (all the tool icons are listed together when browsing) and related icons (picked the wrong wrench? It's easy to correct).
+
+
+<small>Dinosaur icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></small>
