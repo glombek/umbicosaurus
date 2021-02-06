@@ -1,0 +1,88 @@
+﻿{
+  "$schema": "https://jsonapi.org/schema",
+  "type": "object",
+  "patternProperties": {
+    "icon-.+": {
+      "type": "object",
+      "properties": {
+        "thesaurus": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            }
+          ],
+          "additionalItems": true
+        },
+        "group": {
+          "type": "string",
+          "enum":[
+            "action arrow",
+            "action arrow circle",
+            "action boolean",
+            "action key",
+            "action rotate",
+            "action size",
+            "action window tab",
+            "action window",
+            "action zoom",
+            "box",
+            "box layout",
+            "building",
+            "document",
+            "item globe",
+            "item household",
+            "item award",
+            "item food",
+            "item food drink",
+            "item tech",
+            "item",
+            "item clock",
+            "item clothing",
+            "item hand",
+            "item hand thumb",
+            "item media",
+            "item money",
+            "item money bag",
+            "item money coin",
+            "item money note",
+            "item money note ticket",
+            "item nature",
+            "item security",
+            "item security lock",
+            "item security key",
+            "item tool",
+            "item vehicle",
+            "logo",
+            "measure",
+            "misc",
+            "picture",
+            "settings",
+            "file",
+            "user",
+            "user multiple",
+            "user special",
+            "weather",
+            "weather cloud"
+          ]
+        },
+        "related": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string",
+              "pattern": "icon-.+"
+            }
+          ],
+          "additionalItems": true
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "thesaurus",
+        "group",
+        "related"
+      ]
+    }
+  }
+}
