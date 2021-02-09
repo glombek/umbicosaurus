@@ -15,7 +15,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="bin\release\CustomWelcomeDashboard.dll" target="lib\net462" />
     <file src="App_Plugins\Umbicosaurus\**\*.*" target="content\App_Plugins\Umbicosaurus" />
   </files>
 </package>

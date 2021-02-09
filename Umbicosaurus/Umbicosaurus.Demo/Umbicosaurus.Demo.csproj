@@ -294,6 +294,7 @@
     <Content Include="config\Lang\zh-CN.user.xml" />
     <Content Include="config\logviewer.searches.config.js" />
     <Content Include="Global.asax" />
+    <Content Include="package.xml" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
