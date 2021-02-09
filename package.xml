@@ -20,7 +20,7 @@
     <readme><![CDATA[The Umbraco icon thesaurus]]></readme>
   </info>
   <files>
-    <folder path="App_Plugins/Umbicosaurus" orgPath="App_Plugins/Umbicosaurus" />
+    <folder path="Umbicosaurus/Umbicosaurus.Demo/App_Plugins/Umbicosaurus" orgPath="App_Plugins/Umbicosaurus" />
   </files>
   <Actions />
   <control />
