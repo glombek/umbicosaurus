@@ -42,12 +42,20 @@ jobs:
           # Source to scope the NuGet API Key to.
           nuget-api-key-source: https://api.nuget.org/v3/index.json# optional  
 
-      - name: Create NuGet package file
-        run: dotnet pack ${{ env.LIBRARY_FOLDER }} -c ${{ env.CONFIG }} --no-build --include-symbols -o ${{ env.OUTPUT }} /p:version=${{ steps.get_version.outputs.VERSION }} 
+      # - name: Create NuGet package file
+      #   run: dotnet pack ${{ env.LIBRARY_FOLDER }} -c ${{ env.CONFIG }} --no-build --include-symbols -o ${{ env.OUTPUT }} /p:version=0.1.${{ github.run_id }}
 
-      # For the push step to work you will need to create an api key on NuGet, and save it as a secret on Github with the name "NUGET_DEPLOY_KEY"
-      - name: Push package to NuGet
-        run: dotnet nuget push ${{ env.OUTPUT }}/*.nupkg
+      - name: Create NuGet package (nuget.exe)
+        run: nuget.exe pack ${{ env.LIBRARY_FOLDER }}/Umbicosaurus.nuspec -OutputDirectory ${{ env.OUTPUT }} -Version 0.1.${{ github.run_id }}
+
+        
+      - name: Push NuGet package (nuget.exe)
+        run: nuget.exe push ${{ env.OUTPUT }}/Umbicosaurus.0.1.${{ github.run_id }}.nupkg -ApiKey ${{ secrets.NUGET_DEPLOY_KEY }} -Source https://api.nuget.org/v3/index.json
+
+
+      # # For the push step to work you will need to create an api key on NuGet, and save it as a secret on Github with the name "NUGET_DEPLOY_KEY"
+      # - name: Push package to NuGet
+      #   run: dotnet nuget push ${{ env.OUTPUT }}/*.nupkg -k ${{ secrets.NUGET_DEPLOY_KEY }} -s https://api.nuget.org/v3/index.json
 
       - name: Setup .net core
         uses: actions/setup-dotnet@v1.4.0
