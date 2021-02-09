@@ -52,4 +52,4 @@ jobs:
         run: UmbPack pack ./package.xml -o ${{ env.OUTPUT }} -v 0.1.${{ github.run_id }}
       
       - name: Push to Our
-        run: umbpack push -k ${{ secrets.UMBRACO_DEPLOY_KEY }} ${{ env.Output }}\PackageWorkshopDashboard_0.1.${{ github.run_id }}.zip
+        run: umbpack push -k ${{ secrets.UMBRACO_DEPLOY_KEY }} ${{ env.Output }}/Umbicosaurus_0.1.${{ github.run_id }}.zip
