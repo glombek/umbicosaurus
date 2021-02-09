@@ -2,6 +2,11 @@
 
 name: CI
 
+env:
+  OUTPUT: ./Output
+  LIBRARY_FOLDER: ./Umbicosaurus/Umbicosaurus.Demo
+  CONFIG: release
+
 # Controls when the action will run. 
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
@@ -44,7 +49,7 @@ jobs:
         run: dotnet tool install Umbraco.Tools.Packages --global
 
       - name: Create Umbraco package file
-        run: UmbPack pack ./Umbicosaurus/Umbicosaurus.Demo/package.xml -o ${{ env.OUTPUT }} -v 0.1.${{ github.run_id }}
+        run: UmbPack pack ${{ env.LIBRARY_FOLDER }}/package.xml -o ${{ env.OUTPUT }} -v 0.1.${{ github.run_id }}
       
       - name: Push to Our
         run: umbpack push -k ${{ secrets.UMBRACO_DEPLOY_KEY }} ${{ env.Output }}\PackageWorkshopDashboard_0.1.${{ github.run_id }}.zip
