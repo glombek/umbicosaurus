@@ -38,9 +38,16 @@ jobs:
           # NuGet version to install. Can be `latest`, `preview`, a concrete version like `5.3.1`, or a semver range specifier like `5.x`.
           nuget-version: latest # optional, default is latest
           # NuGet API Key to configure.
-          #nuget-api-key: # optional
+          nuget-api-key: ${{ secrets.NUGET_DEPLOY_KEY }}# optional
           # Source to scope the NuGet API Key to.
-          #nuget-api-key-source: # optional  
+          nuget-api-key-source: https://api.nuget.org/v3/index.json# optional  
+
+      - name: Create NuGet package file
+        run: dotnet pack ${{ env.LIBRARY_FOLDER }} -c ${{ env.CONFIG }} --no-build --include-symbols -o ${{ env.OUTPUT }} /p:version=${{ steps.get_version.outputs.VERSION }} 
+
+      # For the push step to work you will need to create an api key on NuGet, and save it as a secret on Github with the name "NUGET_DEPLOY_KEY"
+      - name: Push package to NuGet
+        run: dotnet nuget push ${{ env.OUTPUT }}/*.nupkg
 
       - name: Setup .net core
         uses: actions/setup-dotnet@v1.4.0
