@@ -314,6 +314,7 @@
     <Content Include="App_Plugins\Umbicosaurus\thesaurus.json" />
     <Content Include="App_Plugins\Umbicosaurus\umbicosaurus.js" />
     <Content Include="App_Plugins\Umbicosaurus\package.manifest" />
+    <Content Include="App_Plugins\Umbicosaurus\thesaurus.schema.json" />
     <None Include="packages.config" />
     <Content Include="Views\Web.config" />
     <Content Include="Views\Partials\Grid\Editors\Textstring.cshtml" />
@@ -326,6 +327,7 @@
     <Content Include="Views\Partials\Grid\Bootstrap3-Fluid.cshtml" />
     <Content Include="Views\Partials\BlockList\Default.cshtml" />
     <None Include="README.md" />
+    <Content Include="Umbicosaurus.nuspec" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -356,6 +358,7 @@
           <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
         </WebProjectProperties>
       </FlavorProperties>
+      <UserProperties app_3plugins_4umbicosaurus_4thesaurus_1json__JsonSchema="thesaurus.schema.json" />
     </VisualStudio>
   </ProjectExtensions>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
