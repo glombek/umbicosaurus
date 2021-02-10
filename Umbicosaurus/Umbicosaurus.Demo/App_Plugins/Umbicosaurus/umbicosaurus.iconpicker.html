@@ -16,6 +16,18 @@
             <umb-box>
                 <umb-box-content>
 
+                    <div class="umb-control-group" ng-show="!vm.loading && filtered.length > 0 && model.icon && vm.thesaurus[model.icon].related.length > 0">
+                        <span class="control-label" id="related-icons-label">Related icons</span>
+                        <ul class="umb-iconpicker" ng-class="vm.color.value" aria-labelledby="related-icons-label">
+                            <li class="umb-iconpicker-item" ng-class="{'-selected': icon.name == model.icon}" ng-repeat="icon in vm.thesaurus[model.icon].related">
+                                <button type="button" title="{{icon}}" ng-click="vm.selectIcon(icon, vm.color.value)">
+                                    <umb-icon class="umb-iconpicker-svg {{icon}} large" icon="{{icon}}"></umb-icon>
+                                    <span class="sr-only"><localize key="buttons_select">Select</localize> {{icon}}</span>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+
                     <div class="umb-control-group">
                         <umb-search-filter input-id="icon-search"
                                            model="searchTerm"
@@ -40,21 +52,7 @@
                         <img src="/App_Plugins/Umbicosaurus/img/038-think.svg" alt="Dinosaur thinking..." title="Thinking..." />
                     </div>
 
-                    <div class="umb-control-group umb-control-group--umbicosaurus-pt20" ng-show="!vm.loading && filtered.length > 0 && model.icon && vm.thesaurus[model.icon].related.length > 0">
-                        <span class="control-label" id="related-icons-label">Related icons</span>
-                        <ul class="umb-iconpicker" ng-class="vm.color.value" aria-labelledby="related-icons-label">
-                            <li class="umb-iconpicker-item" ng-class="{'-selected': icon.name == model.icon}" ng-repeat="icon in vm.thesaurus[model.icon].related">
-                                <button type="button" title="{{icon}}" ng-click="vm.selectIcon(icon, vm.color.value)">
-                                    <umb-icon class="umb-iconpicker-svg {{icon}} large" icon="{{icon}}"></umb-icon>
-                                    <span class="sr-only"><localize key="buttons_select">Select</localize> {{icon}}</span>
-                                </button>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="umb-control-group umb-control-group--umbicosaurus-pt20" ng-show="!vm.loading && filtered.length > 0 ">
-                        <span ng-if="model.icon && vm.thesaurus[model.icon].related.length > 0" class="control-label" id="other-icons-label">Other icons</span>
-
+                    <div class="umb-control-group" ng-show="!vm.loading && filtered.length > 0 ">
                         <ul class="umb-iconpicker" ng-class="vm.color.value" ng-show="vm.icons" aria-labelledby="{{(model.icon && vm.thesaurus[model.icon].related.length > 0) ? 'other-icons-label' : null}}">
                             <li class="umb-iconpicker-item" ng-class="{'-selected': icon.name == model.icon}" ng-repeat="icon in filtered = (vm.icons | filter: searchTerm | orderBy:['group','name']) track by $id(icon)">
                                 <button type="button" title="{{icon.name}}" ng-click="vm.selectIcon(icon.name, vm.color.value)">
@@ -65,13 +63,13 @@
                         </ul>
                     </div>
 
-                        <umb-empty-state ng-if="filtered.length === 0"
-                                         position="center">
-                            <div class="umbicosaurus-dino">
-                                <img src="/App_Plugins/Umbicosaurus/img/035-crying.svg" alt="" />
-                            </div>
-                            <localize key="defaultdialogs_noIconsFound">No icons were found.</localize>
-                        </umb-empty-state>
+                    <umb-empty-state ng-if="filtered.length === 0"
+                                     position="center">
+                        <div class="umbicosaurus-dino">
+                            <img src="/App_Plugins/Umbicosaurus/img/035-crying.svg" alt="" />
+                        </div>
+                        <localize key="defaultdialogs_noIconsFound">No icons were found.</localize>
+                    </umb-empty-state>
 
                 </umb-box-content>
             </umb-box>
