@@ -1,5 +1,6 @@
 {
   "css": [
+    "/App_Plugins/Umbicosaurus/umbicosaurus.css"
   ],
   "javascript": [
     "/App_Plugins/Umbicosaurus/umbicosaurus.js"

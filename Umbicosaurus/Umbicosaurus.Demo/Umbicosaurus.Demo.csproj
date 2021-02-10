@@ -271,7 +271,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Plugins\Umbicosaurus\img\035-crying.svg" />
+    <Content Include="App_Plugins\Umbicosaurus\img\038-think-animated.svg" />
     <Content Include="App_Plugins\Umbicosaurus\img\038-think.svg" />
+    <Content Include="App_Plugins\Umbicosaurus\umbicosaurus.css" />
     <Content Include="App_Plugins\Umbicosaurus\umbicosaurus.iconpicker.html" />
     <Content Include="config\grid.editors.config.js" />
     <Content Include="config\Lang\cs-CZ.user.xml" />
@@ -294,7 +296,6 @@
     <Content Include="config\Lang\zh-CN.user.xml" />
     <Content Include="config\logviewer.searches.config.js" />
     <Content Include="Global.asax" />
-    <Content Include="package.xml" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
