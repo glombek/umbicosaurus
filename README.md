@@ -14,4 +14,6 @@ A thesaurus for the Umbraco icon filter to help when searching for relevant icon
 
 or [Install from Our Umbraco](https://our.umbraco.com/packages/backoffice-extensions/umbicosaurus/)
 
+---
+
 *Dinosaur icons made by [Freepik](https://www.freepik.com) from www.flaticon.com*
