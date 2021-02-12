@@ -10,6 +10,6 @@ A thesaurus for the Umbraco icon filter to help when searching for relevant icon
 
 ![Nuget](https://img.shields.io/nuget/v/Umbicosaurus?logo=nuget)
 
-```PM> Install-Package Umbicosaurus -Version 0.1.555879956```
+```PM> Install-Package Umbicosaurus```
 
 *Dinosaur icons made by [Freepik](https://www.freepik.com) from www.flaticon.com*
