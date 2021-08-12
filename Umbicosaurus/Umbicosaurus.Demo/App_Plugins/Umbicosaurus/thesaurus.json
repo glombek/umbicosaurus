@@ -994,7 +994,8 @@
       "icon-thumbnails",
       "icon-grid",
       "icon-stop",
-      "icon-thumbnail-list"
+      "icon-thumbnail-list",
+      "icon-item-arrangement"
     ]
   },
   "icon-thumbnails": {
@@ -1035,7 +1036,8 @@
       "icon-axis-rotation",
       "icon-axis-rotation-2",
       "icon-axis-rotation-3",
-      "icon-refresh"
+      "icon-refresh",
+      "icon-re-post"
     ]
   },
   "icon-sweatshirt": {
@@ -1123,7 +1125,8 @@
       "photos",
       "photographs",
       "pictures",
-      "images"
+      "images",
+      "icon-shipping-box"
     ],
     "group": "item",
     "related": []
@@ -1718,7 +1721,8 @@
       "icon-axis-rotation",
       "icon-axis-rotation-2",
       "icon-axis-rotation-3",
-      "icon-sync"
+      "icon-sync",
+      "icon-re-post"
     ]
   },
   "icon-remote": {
@@ -2169,7 +2173,12 @@
       "invoice"
     ],
     "group": "item money receipt",
-    "related": []
+    "related": [
+      "icon-receipt-pound",
+      "icon-receipt-euro",
+      "icon-receipt-dollar",
+      "icon-receipt-alt"
+    ]
   },
   "icon-price-pound": {
     "thesaurus": [],
@@ -2195,10 +2204,14 @@
   },
   "icon-old-phone": {
     "thesaurus": [
-      "telephone"
+      "telephones"
     ],
-    "group": "item household",
-    "related": []
+    "group": "item household phone",
+    "related": [
+      "icon-iphone",
+      "icon-phone",
+      "icon-phone-ring"
+    ]
   },
   "icon-merge": {
     "thesaurus": [],
@@ -2236,7 +2249,12 @@
   "icon-receipt-pound": {
     "thesaurus": [],
     "group": "item money receipt",
-    "related": []
+    "related": [
+      "icon-receipt-yen",
+      "icon-receipt-euro",
+      "icon-receipt-dollar",
+      "icon-receipt-alt"
+    ]
   },
   "icon-price-euro": {
     "thesaurus": [],
@@ -2315,7 +2333,12 @@
   "icon-receipt-euro": {
     "thesaurus": [],
     "group": "item money receipt",
-    "related": []
+    "related": [
+      "icon-receipt-yen",
+      "icon-receipt-pound",
+      "icon-receipt-dollar",
+      "icon-receipt-alt"
+    ]
   },
   "icon-price-dollar": {
     "thesaurus": [],
@@ -2366,7 +2389,11 @@
       "triangles"
     ],
     "group": "action arrow",
-    "related": []
+    "related": [
+      "icon-page-up",
+      "icon-page-down",
+      "icon-navigation-top"
+    ]
   },
   "icon-meeting": {
     "thesaurus": [
@@ -2397,7 +2424,12 @@
   "icon-receipt-dollar": {
     "thesaurus": [],
     "group": "item money receipt",
-    "related": []
+    "related": [
+      "icon-receipt-yen",
+      "icon-receipt-pound",
+      "icon-receipt-euro",
+      "icon-receipt-alt"
+    ]
   },
   "icon-previous": {
     "thesaurus": [
@@ -2440,17 +2472,38 @@
     "related": []
   },
   "icon-medicine": {
-    "thesaurus": [],
-    "group": "",
-    "related": []
+    "thesaurus": [
+      "bottles",
+      "pills",
+      "medicines"
+    ],
+    "group": "item household",
+    "related": [
+      "icon-medical-emergency"
+    ]
   },
   "icon-list": {
-    "thesaurus": [],
-    "group": "",
-    "related": []
+    "thesaurus": [
+      "menus",
+      "hamburgers",
+      "three",
+      "3"
+    ],
+    "group": "shape box layout",
+    "related": [
+      "icon-thumbnails",
+      "icon-thumbnails-small",
+      "icon-thumbnail-list",
+      "icon-umb-contour"
+    ]
   },
   "icon-key": {
-    "thesaurus": [],
+    "thesaurus": [
+      "key",
+      "lock",
+      "house",
+      "home"
+    ],
     "group": "item security",
     "related": [
       "icon-lock",
@@ -2462,13 +2515,23 @@
   },
   "icon-receipt-alt": {
     "thesaurus": [],
-    "group": "",
-    "related": []
+    "group": "item money receipt",
+    "related": [
+      "icon-receipt-yen",
+      "icon-receipt-pound",
+      "icon-receipt-euro",
+      "icon-receipt-dollar"
+    ]
   },
   "icon-previous-media": {
-    "thesaurus": [],
-    "group": "",
-    "related": []
+    "thesaurus": [
+      "rewind",
+      "skip"
+    ],
+    "group": "item media",
+    "related": [
+      "icon-next-media"
+    ]
   },
   "icon-pictures-alt": {
     "thesaurus": [
@@ -2490,28 +2553,48 @@
     ]
   },
   "icon-pants": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "trousers"
+    ],
+    "group": "item clothing",
     "related": []
   },
   "icon-nodes": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "git",
+      "line",
+      "graph"
+    ],
+    "group": "data",
     "related": []
   },
   "icon-music": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "notes",
+      "musical",
+      "sounds"
+    ],
+    "group": "item media",
     "related": []
   },
   "icon-readonly": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "uneditable"
+    ],
+    "group": "action",
     "related": []
   },
   "icon-presentation": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "audience",
+      "talks",
+      "powerpoints",
+      "slideshows",
+      "keynotes",
+      "speakers",
+      "conference"
+    ],
+    "group": "item workplace",
     "related": []
   },
   "icon-pictures-alt-2": {
@@ -2534,334 +2617,745 @@
     ]
   },
   "icon-pannel-close": {
-    "thesaurus": [],
-    "group": "",
-    "related": []
+    "thesaurus": [
+      "panels",
+      "down",
+      "triangles",
+      "minimize",
+      "minimise"
+    ],
+    "group": "action window",
+    "related": [
+      "icon-panel-show"
+    ]
   },
   "icon-next": {
-    "thesaurus": [],
-    "group": "",
-    "related": []
+    "thesaurus": [
+      "right",
+      "triangles",
+      "forwards"
+    ],
+    "group": "action arrow",
+    "related": [
+      "icon-play"
+    ]
   },
   "icon-multiple-windows": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "stacked",
+      "minimize",
+      "restore"
+    ],
+    "group": "action window",
     "related": []
   },
   "icon-medical-emergency": {
-    "thesaurus": [],
-    "group": "",
-    "related": []
+    "thesaurus": [
+      "medicine",
+      "hospitals",
+      "ambulances",
+      "health"
+    ],
+    "group": "logo",
+    "related": [
+      "icon-medicine"
+    ]
   },
   "icon-medal": {
-    "thesaurus": [],
-    "group": "",
-    "related": []
+    "thesaurus": [
+      "awards",
+      "prizes",
+      "stars",
+      "heroes"
+    ],
+    "group": "item award",
+    "related": [
+      "icon-diploma",
+      "icon-diploma-alt",
+      "icon-trophy"
+    ]
   },
   "icon-link": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "chains",
+      "links",
+      "hyperlinks"
+    ],
+    "group": "item tech",
     "related": []
   },
   "icon-linux-tux": {
-    "thesaurus": [],
-    "group": "",
-    "related": []
+    "thesaurus": [
+      "penguins"
+    ],
+    "group": "logo",
+    "related": [
+      "icon-os-x"
+    ]
   },
   "icon-junk": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "trash",
+      "recycling bin",
+      "recycle bin",
+      "bin",
+      "reuses"
+    ],
+    "group": "item household",
     "related": []
   },
   "icon-item-arrangement": {
-    "thesaurus": [],
-    "group": "",
-    "related": []
+    "thesaurus": [
+      "rows",
+      "grid",
+      "boxes",
+      "squares",
+      "six",
+      "6"
+    ],
+    "group": "shape box layout",
+    "related": [
+      "icon-thumbnails",
+      "icon-grid",
+      "icon-stop",
+      "icon-thumbnail-list",
+      "icon-item-arrangement"
+    ]
   },
   "icon-iphone": {
-    "thesaurus": [],
-    "group": "",
-    "related": []
+    "thesaurus": [
+      "mobiles",
+      "telephones",
+      "cellphones",
+      "cell phones"
+    ],
+    "group": "item household phone",
+    "related": [
+      "icon-old-phone",
+      "icon-phone",
+      "icon-phone-ring"
+    ]
   },
   "icon-lightning": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "storms"
+    ],
+    "group": "weather cloud",
     "related": []
   },
   "icon-map": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "partitions",
+      "screens",
+      "leaflets",
+      "flyers"
+    ],
+    "group": "item globe",
     "related": []
   },
   "icon-multiple-credit-cards": {
-    "thesaurus": [],
-    "group": "",
-    "related": []
+    "thesaurus": [
+      "payments",
+      "debit cards",
+      "credit cards",
+      "contactless",
+      "cashless",
+      "loyalty cards",
+      "store cards",
+      "business cards"
+    ],
+    "group": "item money card",
+    "related": [
+      "icon-credit-card",
+      "icon-credit-card-alt",
+      "icon-multiple-credit-cards"
+    ]
   },
   "icon-next-media": {
-    "thesaurus": [],
-    "group": "",
-    "related": []
+    "thesaurus": [
+      "fast forward",
+      "skip"
+    ],
+    "group": "item media",
+    "related": [
+      "icon-previous-media"
+    ]
   },
   "icon-panel-show": {
-    "thesaurus": [],
-    "group": "",
-    "related": []
+    "thesaurus": [
+      "panels",
+      "up",
+      "triangles",
+      "maximize",
+      "maximise",
+      "expand"
+    ],
+    "group": "action window",
+    "related": [
+      "icon-pannel-close"
+    ]
   },
   "icon-picture": {
-    "thesaurus": [],
-    "group": "",
-    "related": []
+    "thesaurus": [
+      "photograph",
+      "image",
+      "picture",
+      "mountains",
+      "scenery",
+      "landscape"
+    ],
+    "group": "picture",
+    "related": [
+      "icon-umb-media",
+      "icon-pictures",
+      "icon-pictures-alt",
+      "icon-pictures-alt-2",
+      "icon-photo-album",
+      "icon-mountain"
+    ]
   },
   "icon-power": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "shut down"
+      "on",
+      "off"
+    ],
+    "group": "item tech",
     "related": []
   },
   "icon-re-post": {
-    "thesaurus": [],
-    "group": "",
-    "related": []
+    "thesaurus": [
+      "retweet",
+      "share",
+      "repost"
+    ],
+    "group": "action arrow",
+    "related": [
+      "icon-axis-rotation",
+      "icon-axis-rotation-2",
+      "icon-axis-rotation-3",
+      "icon-sync",
+      "icon-refresh"
+    ]
   },
   "icon-rate": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "stars"
+    ],
+    "group": "shape",
     "related": []
   },
   "icon-rain": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "raining",
+      "precipitation"
+    ],
+    "group": "weather cloud",
     "related": []
   },
   "icon-radio": {
-    "thesaurus": [],
-    "group": "",
-    "related": []
+    "thesaurus": [
+      "broadcast",
+      "tv",
+      "fm",
+      "television",
+      "aerials",
+      "ariels",
+      "transmitters",
+      "podcasts"
+    ],
+    "group": "item tech hardware",
+    "related": [
+      "icon-radio-alt",
+      "icon-radio-receiver"
+    ]
   },
   "icon-radio-receiver": {
-    "thesaurus": [],
-    "group": "",
-    "related": []
+    "thesaurus": [
+      "broadcast",
+      "tv",
+      "fm",
+      "television",
+      "receivers",
+      "podcasts",
+      "retro"
+    ],
+    "group": "item tech hardware",
+    "related": [
+      "icon-radio-alt",
+      "icon-radio"
+    ]
   },
   "icon-radio-alt": {
-    "thesaurus": [],
-    "group": "",
-    "related": []
+    "thesaurus": [
+      "broadcast",
+      "tv",
+      "fm",
+      "television",
+      "aerials",
+      "ariels",
+      "transmitters",
+      "podcasts"
+    ],
+    "group": "item tech hardware",
+    "related": [
+      "icon-radio-alt",
+      "icon-radio-receiver"
+    ]
   },
   "icon-quote": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "quotation marks",
+      "speech marks",
+      "speakers",
+      "talks",
+      "quotes",
+      "talking",
+      "chatting",
+      "testimonials"
+    ],
+    "group": "misc",
     "related": []
   },
   "icon-qr-code": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "barcode",
+      "qr codes"
+    ],
+    "group": "item tech",
     "related": []
   },
   "icon-pushpin": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "map pins",
+      "thumb tack",
+      "noticeboard"
+    ],
+    "group": "item workplace",
     "related": []
   },
   "icon-pulse": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "heartbeat",
+      "health",
+      "line charts",
+      "monitors",
+      "line graphs"
+    ],
+    "group": "data",
     "related": []
   },
   "icon-projector": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "home cinema",
+      "slideshows",
+      "presentations"
+    ],
+    "group": "item media",
     "related": []
   },
   "icon-play": {
-    "thesaurus": [],
-    "group": "",
-    "related": []
+    "thesaurus": [
+      "right",
+      "arrows",
+      "triangles",
+      "continue"
+    ],
+    "group": "item media",
+    "related": [
+      "icon-next"
+    ]
   },
   "icon-playing-cards": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "slideshows",
+      "carousels",
+      "poker",
+      "card games",
+      "playing cards"
+    ],
+    "group": "misc game",
     "related": []
   },
   "icon-playlist": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "music",
+      "musical notes"
+    ],
+    "group": "item media",
     "related": []
   },
   "icon-plugin": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "puzzle piece",
+      "jigsaws",
+      "games",
+      "kids",
+      "children",
+      "plugins",
+      "plug-ins",
+      "extensions",
+      "packages"
+    ],
+    "group": "misc game",
     "related": []
   },
   "icon-podcast": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "person",
+      "users",
+      "people"
+    ],
+    "group": "user special",
     "related": []
   },
   "icon-poker-chip": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "1",
+      "one",
+      "coins",
+      "money",
+      "cash",
+      "change",
+      "poker chips"
+    ],
+    "group": "misc game",
     "related": []
   },
   "icon-poll": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "bar graphs",
+      "bar charts"
+    ],
+    "group": "data",
     "related": []
   },
   "icon-post-it": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "postits",
+      "post-its",
+      "post its",
+      "labels",
+      "stickers",
+      "notes",
+      "pages",
+      "sheets"
+    ],
+    "group": "document",
     "related": []
   },
   "icon-pound-bag": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "cash",
+      "swag"
+    ],
+    "group": "item money bag",
     "related": []
   },
   "icon-power-outlet": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "power sockets",
+      "power outlets",
+      "electric",
+      "electricity"
+    ],
+    "group": "item household",
     "related": []
   },
   "icon-photo-album": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "books",
+      "photo albums"
+    ],
+    "group": "picture",
     "related": []
   },
   "icon-phone": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "telephones",
+      "phones",
+      "calling"
+    ],
+    "group": "item household phone",
     "related": []
   },
   "icon-phone-ring": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "telephones",
+      "phones",
+      "calling"
+    ],
+    "group": "item household phone",
     "related": []
   },
   "icon-people": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "person",
+      "man",
+      "men",
+      "male"
+    ],
+    "group": "user",
     "related": []
   },
   "icon-people-female": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "person",
+      "people",
+      "woman",
+      "female",
+      "women"
+    ],
+    "group": "user",
     "related": []
   },
   "icon-people-alt": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "person",
+      "man",
+      "men",
+      "male"
+    ],
+    "group": "user",
     "related": []
   },
   "icon-people-alt-2": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "person",
+      "man",
+      "men",
+      "male"
+    ],
+    "group": "user",
     "related": []
   },
   "icon-pc": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "computers",
+      "servers",
+      "desktops",
+      "pcs"
+    ],
+    "group": "item tech hardware",
     "related": []
   },
   "icon-pause": {
     "thesaurus": [],
-    "group": "",
+    "group": "item media",
     "related": []
   },
   "icon-path": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "routes",
+      "paths",
+      "winding"
+    ],
+    "group": "action arrow",
     "related": []
   },
   "icon-out": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "export",
+      "external",
+      "arrows"
+    ],
+    "group": "action arrow box",
     "related": []
   },
   "icon-outbox": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "out tray",
+      "trays"
+    ],
+    "group": "item workplace",
     "related": []
   },
   "icon-outdent": {
-    "thesaurus": [],
-    "group": "",
-    "related": []
+    "thesaurus": [
+      "move",
+      "indentation",
+      "padding",
+      "spacing",
+      "margin"
+    ],
+    "group": "action arrow box",
+    "related": [
+      "icon-indent"
+    ]
   },
   "icon-page-add": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "new",
+      "create",
+      "documents",
+      "pages"
+    ],
+    "group": "document",
     "related": []
   },
   "icon-page-down": {
-    "thesaurus": [],
-    "group": "",
-    "related": []
+    "thesaurus": [
+      "bottom"
+    ],
+    "group": "action arrow box",
+    "related": [
+      "icon-page-up",
+      "icon-navigation-top",
+      "icon-navigation-bottom"
+    ]
   },
   "icon-page-remove": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "delete",
+      "documents",
+      "pages"
+    ],
+    "group": "document",
     "related": []
   },
   "icon-page-restricted": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "documents",
+      "pages",
+      "disabled",
+      "restricted"
+    ],
+    "group": "document",
     "related": []
   },
   "icon-page-up": {
-    "thesaurus": [],
-    "group": "",
-    "related": []
+    "thesaurus": [
+      "top"
+    ],
+    "group": "action arrow box",
+    "related": [
+      "icon-page-down",
+      "icon-navigation-top",
+      "icon-navigation-bottom"
+    ]
   },
   "icon-paint-roller": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "decorate",
+      "decoration",
+      "decorating",
+      "themes",
+      "theming",
+      "colour",
+      "color",
+      "paint"
+    ],
+    "group": "item household",
     "related": []
   },
   "icon-palette": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "artist",
+      "painting",
+      "painter",
+      "themes",
+      "theming",
+      "colour",
+      "color",
+      "paint"
+    ],
+    "group": "item household",
     "related": []
   },
   "icon-newspaper": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "blogs",
+      "articles",
+      "journalism",
+      "journalist",
+      "press",
+      "media",
+      "magazine"
+    ],
+    "group": "item household",
     "related": []
   },
   "icon-newspaper-alt": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "blogs",
+      "articles",
+      "journalism",
+      "journalist",
+      "press",
+      "media",
+      "magazine"
+    ],
+    "group": "item household",
     "related": []
   },
   "icon-network-alt": {
-    "thesaurus": [],
-    "group": "",
-    "related": []
+    "thesaurus": [
+      "graphs",
+      "charts",
+      "networks",
+      "trees",
+      "hierarchy",
+      "flowcharts",
+      "flow charts",
+      "branches",
+      "paths",
+      "forks"
+    ],
+    "group": "data",
+    "related": [
+      "icon-mindmap"
+    ]
   },
   "icon-navigational-arrow": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "satnav",
+      "sat nav",
+      "satellite navigation",
+      "gps"
+    ],
+    "group": "action arrow",
     "related": []
   },
   "icon-navigation": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "move",
+      "drag and drop",
+      "drag & drop",
+      "pan"
+    ],
+    "group": "action arrow",
     "related": []
   },
   "icon-navigation-vertical": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "up",
+      "down",
+      "scroll"
+    ],
+    "group": "action arrow",
     "related": []
   },
   "icon-navigation-up": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "triangles",
+      "arrows"
+    ],
+    "group": "action arrow",
     "related": []
   },
   "icon-navigation-top": {
-    "thesaurus": [],
-    "group": "",
-    "related": []
+    "thesaurus": [
+      "start",
+      "top",
+      "arrows",
+      "triangles"
+    ],
+    "group": "action arrow box",
+    "related": [
+      "icon-page-up",
+      "icon-page-down",
+      "icon-navigation-bottom"
+    ]
   },
   "icon-navigation-road": {
     "thesaurus": [],
@@ -3044,9 +3538,17 @@
     "related": []
   },
   "icon-indent": {
-    "thesaurus": [],
-    "group": "",
-    "related": []
+    "thesaurus": [
+      "move",
+      "indentation",
+      "padding",
+      "spacing",
+      "margin"
+    ],
+    "group": "action arrow box",
+    "related": [
+      "icon-outdent"
+    ]
   },
   "icon-inbox": {
     "thesaurus": [],
@@ -3433,14 +3935,40 @@
     "related": []
   },
   "icon-credit-card-alt": {
-    "thesaurus": [],
-    "group": "",
-    "related": []
+    "thesaurus": [
+      "payments",
+      "debit cards",
+      "credit cards",
+      "contactless",
+      "cashless",
+      "loyalty cards",
+      "store cards",
+      "business cards"
+    ],
+    "group": "item money card",
+    "related": [
+      "icon-credit-card",
+      "icon-credit-card-alt",
+      "icon-multiple-credit-cards"
+    ]
   },
   "icon-credit-card": {
-    "thesaurus": [],
-    "group": "",
-    "related": []
+    "thesaurus": [
+      "payments",
+      "debit cards",
+      "credit cards",
+      "contactless",
+      "cashless",
+      "loyalty cards",
+      "store cards",
+      "business cards"
+    ],
+    "group": "item money card",
+    "related": [
+      "icon-credit-card",
+      "icon-credit-card-alt",
+      "icon-multiple-credit-cards"
+    ]
   },
   "icon-crop": {
     "thesaurus": [],
