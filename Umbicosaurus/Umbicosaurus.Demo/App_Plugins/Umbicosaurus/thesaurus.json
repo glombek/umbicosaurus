@@ -196,7 +196,9 @@
       "kilogram"
     ],
     "group": "item",
-    "related": []
+    "related": [ 
+      "icon-legal" 
+    ]
   },
   "icon-war": {
     "thesaurus": [
@@ -3483,9 +3485,17 @@
     "related": []
   },
   "icon-legal": {
-    "thesaurus": [],
-    "group": "",
-    "related": []
+    "thesaurus": [
+      "scales",
+      "weight",
+      "mass",
+      "compare",
+      "balance"
+    ],
+    "group": "item household",
+    "related": [ 
+      "icon-weight"
+    ]
   },
   "icon-lense": {
     "thesaurus": [],
