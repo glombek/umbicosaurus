@@ -7,4 +7,5 @@ Help is most wanted [populating the icon thesaurus](https://github.com/glombek/u
 Other contributions are welcome too, but are not a priority at this time. Guidelines will be updated with more detail once the population of the thesaurus is complete.
 
 **Thank you for contributing!**
+
 <img src="/icons/817743-dinosaur-avatars-situations/svg/042-in-love.svg" width="20%" alt="" />
