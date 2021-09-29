@@ -16,4 +16,7 @@ or [Install from Our Umbraco](https://our.umbraco.com/packages/backoffice-extens
 
 ---
 
+## Contributing
+[Please see the contribution guidelines](./CONTRIBUTING.md).
+
 *Dinosaur icons made by [Freepik](https://www.freepik.com) from www.flaticon.com*
