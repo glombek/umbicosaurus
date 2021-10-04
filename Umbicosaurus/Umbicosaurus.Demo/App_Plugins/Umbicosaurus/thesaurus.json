@@ -3,16 +3,9 @@
   "icon-zoom-out": {
     "thesaurus": [
       "magnifying glass",
-      "shring",
+      "shrink",
       "smaller"
     ],
-    "group": "action zoom",
-    "related": [
-      "icon-zoom-in"
-    ]
-  },
-  "icon-zom-out": {
-    "thesaurus": [],
     "group": "action zoom",
     "related": [
       "icon-zoom-in"
@@ -21,10 +14,15 @@
   "icon-truck": {
     "thesaurus": [
       "lorry",
-      "vehicle"
+      "vehicle",
+      "van",
+      "shipping",
+      "delivery"
     ],
     "group": "transport vehicle",
-    "related": []
+    "related": [
+      "icon-shipping"
+    ]
   },
   "icon-zoom-in": {
     "thesaurus": [
@@ -196,8 +194,8 @@
       "kilogram"
     ],
     "group": "item",
-    "related": [ 
-      "icon-legal" 
+    "related": [
+      "icon-legal"
     ]
   },
   "icon-war": {
@@ -651,7 +649,8 @@
     "thesaurus": [
       "telly",
       "tv",
-      "retro"
+      "retro",
+      "crt"
     ],
     "group": "item tech",
     "related": [
@@ -1288,7 +1287,9 @@
       "carry"
     ],
     "group": "commerce",
-    "related": []
+    "related": [
+      "icon-truck"
+    ]
   },
   "icon-shoe": {
     "thesaurus": [],
@@ -3493,7 +3494,7 @@
       "balance"
     ],
     "group": "item household",
-    "related": [ 
+    "related": [
       "icon-weight"
     ]
   },
@@ -3503,17 +3504,27 @@
     "related": []
   },
   "icon-library": {
-    "thesaurus": [],
-    "group": "",
-    "related": []
+    "thesaurus": [
+      "temple",
+      "institution",
+      "government"
+    ],
+    "group": "building",
+    "related": [
+      "icon-school"
+    ]
   },
   "icon-light-down": {
-    "thesaurus": [],
+    "thesaurus": [
+      "brightness"
+    ],
     "group": "",
     "related": []
   },
   "icon-light-up": {
-    "thesaurus": [],
+    "thesaurus": [
+      "brightness"
+    ],
     "group": "",
     "related": []
   },
@@ -3528,7 +3539,9 @@
     "related": []
   },
   "icon-ipad": {
-    "thesaurus": [],
+    "thesaurus": [
+      "tablet"
+    ],
     "group": "",
     "related": []
   },
@@ -4551,7 +4564,10 @@
     "related": []
   },
   "icon-baby-stroller": {
-    "thesaurus": [],
+    "thesaurus": [
+      "pram",
+      "pushchair"
+    ],
     "group": "",
     "related": []
   },
