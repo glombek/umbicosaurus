@@ -3401,10 +3401,10 @@
     "thesaurus": [
       "molecule",
       "atoms",
-      "particles",
-      "chemistry"
+      "network",
+      "hub"
     ],
-    "group": "item nature",
+    "group": "item misc",
     "related": [
       "icon-molecular"
     ]
@@ -3413,10 +3413,11 @@
     "thesaurus": [
       "molecule",
       "atoms",
-      "particles",
-      "chemistry"
+      "network",
+      "hub",
+      "virus"
     ],
-    "group": "item nature",
+    "group": "item misc",
     "related": [
       "icon-molecular-network"
     ]
