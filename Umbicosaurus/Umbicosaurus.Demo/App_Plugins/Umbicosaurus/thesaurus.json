@@ -1,4 +1,4 @@
-﻿{
+{
   "$schema": "./thesaurus.schema.json",
   "icon-zoom-out": {
     "thesaurus": [
@@ -747,13 +747,16 @@
       "bi-directional",
       "two",
       "2",
-      "swap"
+      "swap",
+      "navigation"
     ],
     "group": "action arrow",
     "related": [
       "icon-traffic",
+      "icon-tab-key",
       "icon-shuffle",
       "icon-repeat",
+      "icon-repeat-one",
       "icon-navigation-road"
     ]
   },
@@ -812,8 +815,14 @@
       "end",
       "stop"
     ],
-    "group": "action key",
-    "related": []
+    "group": "action key arrow",
+    "related": [
+      "icon-traffic-alt",
+      "icon-traffic",
+      "icon-shuffle",
+      "icon-repeat",
+      "icon-navigation-road"
+    ]
   },
   "icon-tab": {
     "thesaurus": [
@@ -1345,7 +1354,13 @@
       "random"
     ],
     "group": "action arrow",
-    "related": []
+    "related": [
+      "icon-traffic-alt",
+      "icon-tab-key",
+      "icon-traffic",
+      "icon-repeat",
+      "icon-navigation-road"
+    ]
   },
   "icon-sience": {
     "thesaurus": [
@@ -1747,14 +1762,44 @@
     "related": []
   },
   "icon-repeat-one": {
-    "thesaurus": [],
-    "group": "action arrow",
-    "related": []
+    "thesaurus": [
+        "arrows",
+        "bi-directional",
+        "two",
+        "2",
+        "swap",
+        "loop",
+        "reverse"
+      ],
+      "group": "action arrow",
+      "related": [
+        "icon-repeat",
+        "icon-traffic-alt",
+        "icon-tab-key",
+        "icon-shuffle",
+        "icon-traffic",
+        "icon-navigation-road"
+      ]
   },
   "icon-repeat": {
-    "thesaurus": [],
-    "group": "action arrow",
-    "related": []
+    "thesaurus": [
+        "arrows",
+        "bi-directional",
+        "two",
+        "2",
+        "swap",
+        "loop",
+        "reverse"
+      ],
+      "group": "action arrow",
+      "related": [
+        "icon-repeat-one",
+        "icon-traffic-alt",
+        "icon-tab-key",
+        "icon-shuffle",
+        "icon-traffic",
+        "icon-navigation-road"
+      ]
   },
   "icon-resize": {
     "thesaurus": [
@@ -4902,9 +4947,17 @@
     "related": []
   },
   "icon-application-window": {
-    "thesaurus": [],
-    "group": "",
-    "related": []
+    "thesaurus": [
+        "screen",
+        "window",
+        "sidebar"
+    ],
+    "group": "application",
+    "related": [
+        "icon-application-window-alt",
+        "icon-application-error",
+        "icon-section"
+    ]
   },
   "icon-band-aid": {
     "thesaurus": [],
@@ -4912,9 +4965,16 @@
     "related": []
   },
   "icon-application-window-alt": {
-    "thesaurus": [],
-    "group": "",
-    "related": []
+    "thesaurus": [
+        "screen",
+        "window"
+    ],
+    "group": "application",
+    "related": [
+        "icon-application-window",
+        "icon-application-error",
+        "icon-section"
+    ]
   },
   "icon-ball": {
     "thesaurus": [],
@@ -4922,9 +4982,21 @@
     "related": []
   },
   "icon-application-error": {
-    "thesaurus": [],
-    "group": "",
-    "related": []
+    "thesaurus": [
+        "screen",
+        "window",
+        "404",
+        "500",
+        "page not found",
+        "server error",
+        "fault"
+    ],
+    "group": "application",
+    "related": [
+        "icon-application-window-alt",
+        "icon-application",
+        "icon-section"
+    ]
   },
   "icon-badge-restricted": {
     "thesaurus": [],
@@ -5022,13 +5094,39 @@
     "related": []
   },
   "icon-section": {
-    "thesaurus": [],
-    "group": "",
-    "related": []
+    "thesaurus": [
+        "screen",
+        "window",
+        "sidebar"
+    ],
+    "group": "application",
+    "related": [
+        "icon-application-window-alt",
+        "icon-application-error",
+        "icon-application"
+    ]
   },
   "icon-traffic": {
-    "thesaurus": [],
-    "group": "",
-    "related": []
+    "thesaurus": [
+      "arrows",
+      "left",
+      "right",
+      "bi-directional",
+      "two",
+      "2",
+      "swap",
+      "loop",
+      "reverse",
+      "navigation"
+    ],
+    "group": "action arrow",
+    "related": [
+      "icon-traffic-alt",
+      "icon-tab-key",
+      "icon-shuffle",
+      "icon-repeat",
+      "icon-repeat-one",
+      "icon-navigation-road"
+    ]
   }
 }
