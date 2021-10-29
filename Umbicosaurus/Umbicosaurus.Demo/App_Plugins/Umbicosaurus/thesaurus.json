@@ -698,7 +698,7 @@
       "bin",
       "rubbish"
     ],
-    "group": "",
+    "group": "item household",
     "related": [
       "icon-trash",
       "icon-trash-alt-2"
@@ -709,7 +709,7 @@
       "bin",
       "rubbish"
     ],
-    "group": "",
+    "group": "item household",
     "related": [
       "icon-trash",
       "icon-trash-alt"
@@ -3344,7 +3344,9 @@
       "arrows"
     ],
     "group": "action arrow",
-    "related": []
+    "related": [
+      "icon-navigation-right"
+    ]
   },
   "icon-navigation-top": {
     "thesaurus": [
@@ -3362,33 +3364,63 @@
   },
   "icon-navigation-road": {
     "thesaurus": [],
-    "group": "",
+    "group": "action arrow",
     "related": []
   },
   "icon-navigation-right": {
-    "thesaurus": [],
-    "group": "",
-    "related": []
+    "thesaurus": [
+      "arrows",
+      "triangles"
+    ],
+    "group": "action arrow",
+    "related": [
+      "icon-navigation-up"
+    ]
   },
   "icon-microscope": {
-    "thesaurus": [],
-    "group": "",
-    "related": []
+    "thesaurus": [
+      "science",
+      "lab"
+    ],
+    "group": "item",
+    "related": [
+      "icon-lab"
+    ]
   },
   "icon-mindmap": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "chart",
+      "flow chart",
+      "diagram",
+      "decision tree"
+    ],
+    "group": "data",
     "related": []
   },
   "icon-molecular-network": {
-    "thesaurus": [],
-    "group": "",
-    "related": []
+    "thesaurus": [
+      "molecule",
+      "atoms",
+      "network",
+      "hub"
+    ],
+    "group": "item misc",
+    "related": [
+      "icon-molecular"
+    ]
   },
   "icon-molecular": {
-    "thesaurus": [],
-    "group": "",
-    "related": []
+    "thesaurus": [
+      "molecule",
+      "atoms",
+      "network",
+      "hub",
+      "virus"
+    ],
+    "group": "item misc",
+    "related": [
+      "icon-molecular-network"
+    ]
   },
   "icon-mountain": {
     "thesaurus": [],
