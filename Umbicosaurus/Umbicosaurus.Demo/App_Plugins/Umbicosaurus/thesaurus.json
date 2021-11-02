@@ -3711,7 +3711,11 @@
     "related": []
   },
   "icon-coins-dollar-alt": {
-    "thesaurus": [],
+    "thesaurus": [
+      "money",
+      "us",
+      "usa"
+    ],
     "group": "",
     "related": []
   },
@@ -3881,12 +3885,22 @@
     "related": []
   },
   "icon-coin-dollar": {
-    "thesaurus": [],
+    "thesaurus": [
+      "money",
+      "us",
+      "usa",
+      "paper",
+      "cash"
+    ],
     "group": "",
     "related": []
   },
   "icon-coin-pound": {
-    "thesaurus": [],
+    "thesaurus": [
+      "money",
+      "sterling",
+      "cash"
+    ],
     "group": "",
     "related": []
   },
@@ -3896,12 +3910,18 @@
     "related": []
   },
   "icon-coin": {
-    "thesaurus": [],
+    "thesaurus": [
+      "money",
+      "cash"
+    ],
     "group": "",
     "related": []
   },
   "icon-coins-alt": {
-    "thesaurus": [],
+    "thesaurus": [
+      "money",
+      "cash"
+    ],
     "group": "",
     "related": []
   },
@@ -4015,7 +4035,12 @@
     "related": []
   },
   "icon-coins-dollar": {
-    "thesaurus": [],
+    "thesaurus": [
+      "money",
+      "us",
+      "usa",
+      "cash"
+    ],
     "group": "",
     "related": []
   },
@@ -4146,7 +4171,13 @@
     "related": []
   },
   "icon-dollar-bag": {
-    "thesaurus": [],
+    "thesaurus": [
+      "money",
+      "us",
+      "usa",
+      "cash",
+    "sack"
+    ],
     "group": "",
     "related": []
   },
@@ -4774,7 +4805,13 @@
     "related": []
   },
   "icon-bills-dollar": {
-    "thesaurus": [],
+    "thesaurus": [
+      "money",
+      "us",
+      "usa",
+      "paper",
+      "cash"
+    ],
     "group": "",
     "related": []
   },
@@ -4894,7 +4931,13 @@
     "related": []
   },
   "icon-bill-dollar": {
-    "thesaurus": [],
+    "thesaurus": [
+      "money",
+      "us",
+      "usa",
+      "paper",
+      "cash"
+    ],
     "group": "",
     "related": []
   },
