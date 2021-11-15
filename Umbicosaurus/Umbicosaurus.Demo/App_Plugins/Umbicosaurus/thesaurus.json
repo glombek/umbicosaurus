@@ -3439,13 +3439,13 @@
   },
   "icon-microscope": {
     "thesaurus": [
-<<<<<<< HEAD
-      "eyeglass",
-      "magnifier"
+      "science",
+      "lab"
     ],
-    "group": "item scientific instruments",
-    "related": []
-=======
+    "group": "item",
+    "related": [
+      "icon-lab"
+    ]
       "science",
       "lab"
     ],
