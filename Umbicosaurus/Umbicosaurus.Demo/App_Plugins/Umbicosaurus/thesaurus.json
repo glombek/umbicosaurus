@@ -1986,7 +1986,8 @@
   },
   "icon-print": {
     "thesaurus": [
-      "printer"
+      "printer",
+      "print"
     ],
     "group": "item tech hardware",
     "related": [
@@ -2021,7 +2022,8 @@
   },
   "icon-navigation-last": {
     "thesaurus": [
-      "end"
+      "end",
+      "finish"
     ],
     "group": "action arrow",
     "related": []
@@ -2465,12 +2467,20 @@
     "related": []
   },
   "icon-paper-bag": {
-    "thesaurus": [],
+    "thesaurus": [
+      "carrier",
+      "container", 
+      "sack"
+    ],
     "group": "",
     "related": []
   },
   "icon-name-badge": {
-    "thesaurus": [],
+    "thesaurus": [
+      "brooch",
+      "sheriff",
+      "sticker"
+    ],
     "group": "",
     "related": []
   },
@@ -2490,7 +2500,11 @@
       "menus",
       "hamburgers",
       "three",
-      "3"
+      "3",
+      "catalogue",
+      "catalog",
+      "inventory",
+      "record"
     ],
     "group": "shape box layout",
     "related": [
@@ -2741,7 +2755,8 @@
   },
   "icon-lightning": {
     "thesaurus": [
-      "storms"
+      "storms",
+      "electricity"
     ],
     "group": "weather cloud",
     "related": []
@@ -3371,8 +3386,11 @@
     "related": []
   },
   "icon-microscope": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "eyeglass",
+      "magnifier"
+    ],
+    "group": "item scientific instruments",
     "related": []
   },
   "icon-mindmap": {
