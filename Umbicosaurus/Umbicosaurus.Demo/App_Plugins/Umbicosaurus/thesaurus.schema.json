@@ -16,7 +16,7 @@
         },
         "group": {
           "type": "string",
-          "enum":[
+          "enum": [
             "action",
             "action arrow",
             "action arrow box",
@@ -63,6 +63,7 @@
             "item security",
             "item security lock",
             "item security key",
+            "item science",
             "item scientific instruments",
             "item tool",
             "transport",

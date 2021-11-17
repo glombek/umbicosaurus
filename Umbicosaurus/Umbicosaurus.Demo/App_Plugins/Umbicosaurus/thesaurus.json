@@ -3446,14 +3446,6 @@
     "related": [
       "icon-lab"
     ]
-      "science",
-      "lab"
-    ],
-    "group": "item",
-    "related": [
-      "icon-lab"
-    ]
->>>>>>> b0cd2126f6fd125547daf833e87997c42e0a5aad
   },
   "icon-mindmap": {
     "thesaurus": [
@@ -3472,7 +3464,7 @@
       "network",
       "hub"
     ],
-    "group": "item misc",
+    "group": "item science",
     "related": [
       "icon-molecular"
     ]
@@ -3485,14 +3477,19 @@
       "hub",
       "virus"
     ],
-    "group": "item misc",
+    "group": "item science",
     "related": [
       "icon-molecular-network"
     ]
   },
   "icon-mountain": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "landscape",
+      "geography",
+      "nature",
+      "natural feature"
+    ],
+    "group": "item nature",
     "related": []
   },
   "icon-mouse-cursor": {
