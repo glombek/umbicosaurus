@@ -3464,7 +3464,7 @@
       "network",
       "hub"
     ],
-    "group": "item science",
+    "group": "misc",
     "related": [
       "icon-molecular"
     ]
@@ -3477,7 +3477,7 @@
       "hub",
       "virus"
     ],
-    "group": "item science",
+    "group": "misc",
     "related": [
       "icon-molecular-network"
     ]
