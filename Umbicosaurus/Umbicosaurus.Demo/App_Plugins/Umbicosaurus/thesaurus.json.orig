@@ -3439,6 +3439,16 @@
   },
   "icon-microscope": {
     "thesaurus": [
+<<<<<<< HEAD
+<<<<<<< HEAD
+      "eyeglass",
+      "magnifier"
+    ],
+    "group": "item scientific instruments",
+    "related": []
+=======
+=======
+>>>>>>> b0cd2126f6fd125547daf833e87997c42e0a5aad
       "science",
       "lab"
     ],
@@ -3446,6 +3456,10 @@
     "related": [
       "icon-lab"
     ]
+<<<<<<< HEAD
+>>>>>>> b0cd2126f6fd125547daf833e87997c42e0a5aad
+=======
+>>>>>>> b0cd2126f6fd125547daf833e87997c42e0a5aad
   },
   "icon-mindmap": {
     "thesaurus": [
@@ -3464,7 +3478,7 @@
       "network",
       "hub"
     ],
-    "group": "misc",
+    "group": "item misc",
     "related": [
       "icon-molecular"
     ]
@@ -3477,19 +3491,14 @@
       "hub",
       "virus"
     ],
-    "group": "misc",
+    "group": "item misc",
     "related": [
       "icon-molecular-network"
     ]
   },
   "icon-mountain": {
-    "thesaurus": [
-      "landscape",
-      "geography",
-      "nature",
-      "natural feature"
-    ],
-    "group": "item nature",
+    "thesaurus": [],
+    "group": "",
     "related": []
   },
   "icon-mouse-cursor": {
