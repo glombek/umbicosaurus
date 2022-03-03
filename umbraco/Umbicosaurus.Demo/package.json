@@ -1,0 +1,6 @@
+{
+  "name": "umbicosaurus.demo",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}

@@ -296,6 +296,7 @@
     <Content Include="config\Lang\zh-CN.user.xml" />
     <Content Include="config\logviewer.searches.config.js" />
     <Content Include="Global.asax" />
+    <Content Include="gulpfile.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -316,7 +317,7 @@
     <Content Include="App_Plugins\Umbicosaurus\thesaurus.json" />
     <Content Include="App_Plugins\Umbicosaurus\umbicosaurus.js" />
     <Content Include="App_Plugins\Umbicosaurus\package.manifest" />
-    <Content Include="App_Plugins\Umbicosaurus\thesaurus.schema.json" />
+    <Content Include="package.json" />
     <None Include="packages.config" />
     <Content Include="Views\Web.config" />
     <Content Include="Views\Partials\Grid\Editors\Textstring.cshtml" />
