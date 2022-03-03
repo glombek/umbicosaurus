@@ -22,6 +22,7 @@ function defaultTask(cb)
 }
 
 function watchTask(cb) {
+    watch(pluginFiles, copyPluginFiles);
     watch(authorFiles, copyAuthorFiles);
 }
 
