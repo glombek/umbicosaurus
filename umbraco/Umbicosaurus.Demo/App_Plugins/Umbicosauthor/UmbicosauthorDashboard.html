@@ -13,7 +13,7 @@
                 </umb-control-group>
 
                 <umb-control-group label="Category" descripton="">
-                    <select name="category" ng-model="vm.category" ng-options="item as item for item in vm.schema.patternProperties['icon-.+'].properties.group.enum track by item">
+                    <select name="category" ng-model="vm.category" ng-options="item as item for item in vm.groups track by item">
                     </select>
                 </umb-control-group>
 

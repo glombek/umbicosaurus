@@ -27,6 +27,7 @@
     $http.get('/App_Plugins/Umbicosauthor/thesaurus.schema.json')
         .then(function (data) {
             vm.schema = data.data;
+            vm.groups = vm.schema.patternProperties['icon-.+'].properties.group.enum.sort();
         });
 
     //$scope.$watch('vm.thesaurus', function () {
@@ -41,7 +42,7 @@
     }
 
     vm.save = function () {
-        vm.currentIcon.info.thesaurus = vm.thesaurusEntries.split('\n')
+        vm.currentIcon.info.thesaurus = vm.thesaurusEntries.split('\n').filter(entry => entry != '');
         vm.currentIcon.info.group = vm.category;
         vm.thesaurus[vm.currentIcon.name] = vm.currentIcon.info;
 
