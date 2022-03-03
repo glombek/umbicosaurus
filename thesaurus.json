@@ -101,7 +101,15 @@
     ]
   },
   "icon-wine-glass": {
-    "thesaurus": [],
+    "thesaurus": [
+      "goblets",
+      "wine",
+      "glasses",
+      "crockery",
+      "drinks",
+      "dinners",
+      "restaurants"
+    ],
     "group": "item food drink",
     "related": [
       "icon-cocktail",
@@ -439,7 +447,11 @@
     ]
   },
   "icon-usb-connector": {
-    "thesaurus": [],
+    "thesaurus": [
+      "plugs",
+      "peripherals",
+      "technology"
+    ],
     "group": "item tech",
     "related": [
       "icon-usb",
@@ -919,7 +931,14 @@
     ]
   },
   "icon-terminal": {
-    "thesaurus": [],
+    "thesaurus": [
+      "console",
+      "commands",
+      "line",
+      "code",
+      "developers",
+      "cli"
+    ],
     "group": "action window",
     "related": []
   },
@@ -1301,12 +1320,18 @@
     ]
   },
   "icon-shoe": {
-    "thesaurus": [],
+    "thesaurus": [
+      "trainers",
+      "sneakers"
+    ],
     "group": "item clothing",
     "related": []
   },
   "icon-shopping-basket-alt-2": {
-    "thesaurus": [],
+    "thesaurus": [
+      "carts",
+      "checkouts"
+    ],
     "group": "commerce",
     "related": [
       "icon-shopping-basket",
@@ -1371,7 +1396,13 @@
     "related": []
   },
   "icon-simcard": {
-    "thesaurus": [],
+    "thesaurus": [
+      "technology",
+      "telephony",
+      "phones",
+      "mobiles",
+      "cellphones"
+    ],
     "group": "item tech hardware",
     "related": []
   },
@@ -1669,10 +1700,15 @@
       "dead",
       "death",
       "expired",
-      "old"
+      "old",
+      "skull",
+      "pirate",
+      "piracy"
     ],
     "group": "item",
-    "related": []
+    "related": [
+      "icon-piracy"
+    ]
   },
   "icon-script": {
     "thesaurus": [
@@ -1763,43 +1799,43 @@
   },
   "icon-repeat-one": {
     "thesaurus": [
-        "arrows",
-        "bi-directional",
-        "two",
-        "2",
-        "swap",
-        "loop",
-        "reverse"
-      ],
-      "group": "action arrow",
-      "related": [
-        "icon-repeat",
-        "icon-traffic-alt",
-        "icon-tab-key",
-        "icon-shuffle",
-        "icon-traffic",
-        "icon-navigation-road"
-      ]
+      "arrows",
+      "bi-directional",
+      "two",
+      "2",
+      "swap",
+      "loop",
+      "reverse"
+    ],
+    "group": "action arrow",
+    "related": [
+      "icon-repeat",
+      "icon-traffic-alt",
+      "icon-tab-key",
+      "icon-shuffle",
+      "icon-traffic",
+      "icon-navigation-road"
+    ]
   },
   "icon-repeat": {
     "thesaurus": [
-        "arrows",
-        "bi-directional",
-        "two",
-        "2",
-        "swap",
-        "loop",
-        "reverse"
-      ],
-      "group": "action arrow",
-      "related": [
-        "icon-repeat-one",
-        "icon-traffic-alt",
-        "icon-tab-key",
-        "icon-shuffle",
-        "icon-traffic",
-        "icon-navigation-road"
-      ]
+      "arrows",
+      "bi-directional",
+      "two",
+      "2",
+      "swap",
+      "loop",
+      "reverse"
+    ],
+    "group": "action arrow",
+    "related": [
+      "icon-repeat-one",
+      "icon-traffic-alt",
+      "icon-tab-key",
+      "icon-shuffle",
+      "icon-traffic",
+      "icon-navigation-road"
+    ]
   },
   "icon-resize": {
     "thesaurus": [
@@ -1920,12 +1956,21 @@
     ]
   },
   "icon-safedial": {
-    "thesaurus": [],
+    "thesaurus": [
+      "codes",
+      "secrets",
+      "locked"
+    ],
     "group": "item security lock",
     "related": []
   },
   "icon-safe": {
-    "thesaurus": [],
+    "thesaurus": [
+      "codes",
+      "secrets",
+      "locked",
+      "dial"
+    ],
     "group": "item security lock",
     "related": []
   },
@@ -1944,7 +1989,10 @@
     ]
   },
   "icon-printer-alt": {
-    "thesaurus": [],
+    "thesaurus": [
+      "printers",
+      "peripherals"
+    ],
     "group": "item tech hardware",
     "related": [
       "icon-print"
@@ -1997,7 +2045,13 @@
     ]
   },
   "icon-lock": {
-    "thesaurus": [],
+    "thesaurus": [
+      "padlocks",
+      "locks",
+      "security",
+      "secret",
+      "locked"
+    ],
     "group": "item security",
     "related": [
       "icon-lock",
@@ -2125,7 +2179,12 @@
     "related": []
   },
   "icon-piracy": {
-    "thesaurus": [],
+    "thesaurus": [
+      "pirates",
+      "person",
+      "people",
+      "users"
+    ],
     "group": "user special",
     "related": [
       "icon-user",
@@ -2136,7 +2195,8 @@
       "icon-employee",
       "icon-piracy",
       "icon-theif",
-      "icon-operator"
+      "icon-operator",
+      "icon-scull"
     ]
   },
   "icon-parental-control": {
@@ -2159,7 +2219,16 @@
     "related": []
   },
   "icon-operator": {
-    "thesaurus": [],
+    "thesaurus": [
+      "microphones",
+      "users",
+      "people",
+      "person",
+      "support",
+      "phonecalls",
+      "call centres",
+      "call centers"
+    ],
     "group": "user special",
     "related": [
       "icon-user",
@@ -2282,7 +2351,7 @@
       "gps",
       "location"
     ],
-    "group": "misc",
+    "group": "space",
     "related": []
   },
   "icon-keyhole": {
@@ -2514,7 +2583,7 @@
   "icon-paper-bag": {
     "thesaurus": [
       "carrier",
-      "container", 
+      "container",
       "sack"
     ],
     "group": "",
@@ -3493,8 +3562,14 @@
     "related": []
   },
   "icon-mouse-cursor": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "cursors",
+      "pointers",
+      "arrows",
+      "mouse",
+      "mice"
+    ],
+    "group": "action arrow",
     "related": []
   },
   "icon-mouse": {
@@ -3503,23 +3578,43 @@
     "related": []
   },
   "icon-movie-alt": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "movies",
+      "films",
+      "hollywood",
+      "action",
+      "clapperboards",
+      "filmmaking",
+      "directors",
+      "crew"
+    ],
+    "group": "item",
     "related": []
   },
   "icon-map-marker": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "pins",
+      "maps",
+      "markers",
+      "locations",
+      "lollipop",
+      "lolly"
+    ],
+    "group": "misc",
     "related": []
   },
   "icon-movie": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "movies",
+      "films",
+      "reels"
+    ],
+    "group": "item",
     "related": []
   },
   "icon-map-loaction": {
     "thesaurus": [],
-    "group": "",
+    "group": "item",
     "related": []
   },
   "icon-map-alt": {
@@ -3573,13 +3668,22 @@
     "related": []
   },
   "icon-left-double-arrow": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "chevrons",
+      "arrows",
+      "backwards"
+    ],
+    "group": "action arrow",
     "related": []
   },
   "icon-layout": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "media",
+      "newspaper",
+      "layouts",
+      "magazines"
+    ],
+    "group": "shape box layout",
     "related": []
   },
   "icon-legal": {
@@ -3596,8 +3700,14 @@
     ]
   },
   "icon-lense": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "circles",
+      "orbits",
+      "planets",
+      "eyeballs",
+      "target"
+    ],
+    "group": "item",
     "related": []
   },
   "icon-library": {
@@ -3626,13 +3736,24 @@
     "related": []
   },
   "icon-lightbulb-active": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "on",
+      "switch",
+      "lamps",
+      "bulbs",
+      "lights"
+    ],
+    "group": "item household",
     "related": []
   },
   "icon-lightbulb": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "off",
+      "lights",
+      "bulbs",
+      "lamps"
+    ],
+    "group": "item household",
     "related": []
   },
   "icon-ipad": {
@@ -3643,8 +3764,14 @@
     "related": []
   },
   "icon-invoice": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "bills",
+      "invoices",
+      "dollar",
+      "usd",
+      "currency"
+    ],
+    "group": "item money invoice",
     "related": []
   },
   "icon-info": {
@@ -3681,8 +3808,14 @@
     "related": []
   },
   "icon-inactive-line": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "slashes",
+      "backslashes",
+      "lines",
+      "disabled",
+      "crossed"
+    ],
+    "group": "shape",
     "related": []
   },
   "icon-imac": {
@@ -3800,8 +3933,15 @@
     "related": []
   },
   "icon-chart": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "lines",
+      "graphs",
+      "charts",
+      "stocks",
+      "finance",
+      "financial"
+    ],
+    "group": "data",
     "related": []
   },
   "icon-chart-curve": {
@@ -3860,8 +4000,12 @@
     "related": []
   },
   "icon-clothes-hanger": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "clothes",
+      "clothing",
+      "wardrobes"
+    ],
+    "group": "item clothing",
     "related": []
   },
   "icon-cloud-drive": {
@@ -3961,8 +4105,16 @@
     "related": []
   },
   "icon-company": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "city",
+      "cities",
+      "towns",
+      "companies",
+      "sky scrapers",
+      "buildings",
+      "offices"
+    ],
+    "group": "building",
     "related": []
   },
   "icon-command": {
@@ -4010,8 +4162,18 @@
     "related": []
   },
   "icon-colorpicker": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "pipettes",
+      "eyedroppers",
+      "eye droppers",
+      "eye-droppers",
+      "color pickers",
+      "colour pickers",
+      "colorpickers",
+      "colourpickers",
+      "styles"
+    ],
+    "group": "item",
     "related": []
   },
   "icon-color-bucket": {
@@ -4176,8 +4338,14 @@
     "related": []
   },
   "icon-desk": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "benches",
+      "desks",
+      "horses",
+      "gymnastics",
+      "hurdles"
+    ],
+    "group": "item household",
     "related": []
   },
   "icon-desktop": {
@@ -4196,7 +4364,7 @@
       "us",
       "usa",
       "cash",
-    "sack"
+      "sack"
     ],
     "group": "",
     "related": []
@@ -4207,43 +4375,102 @@
     "related": []
   },
   "icon-document": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "papers",
+      "documents",
+      "pages",
+      "sheets",
+      "leaf",
+      "leaves",
+      "new",
+      "blank"
+    ],
+    "group": "item",
     "related": []
   },
   "icon-document-dashed-line": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "documents",
+      "new",
+      "create",
+      "pages",
+      "papers",
+      "drafts"
+    ],
+    "group": "document",
     "related": []
   },
   "icon-dock-connector": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "usb",
+      "apple",
+      "30-pin",
+      "adaptor",
+      "cable",
+      "charges",
+      "charging"
+    ],
+    "group": "item tech",
     "related": []
   },
   "icon-dna": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "biology",
+      "id",
+      "identity"
+    ],
+    "group": "item science",
     "related": []
   },
   "icon-display": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "displays",
+      "monitors",
+      "screens",
+      "tvs",
+      "televisions",
+      "computers",
+      "pcs"
+    ],
+    "group": "item tech hardware",
     "related": []
   },
   "icon-disk-image": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "cds",
+      "dvds",
+      "disk",
+      "disc",
+      "drive"
+    ],
+    "group": "item tech hardware",
     "related": []
   },
   "icon-disc": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "cds",
+      "discs",
+      "disks",
+      "record",
+      "dvds",
+      "blurays",
+      "bluerays",
+      "blu-rays",
+      "blue rays",
+      "blue-rays",
+      "movies",
+      "films",
+      "music"
+    ],
+    "group": "item tech",
     "related": []
   },
   "icon-directions": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "signs",
+      "signposts"
+    ],
+    "group": "item",
     "related": []
   },
   "icon-directions-alt": {
@@ -4272,23 +4499,54 @@
     "related": []
   },
   "icon-diamond": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "diamonds",
+      "gems",
+      "special",
+      "expensive",
+      "commodities",
+      "commodity",
+      "precious",
+      "valuable"
+    ],
+    "group": "item money",
     "related": []
   },
   "icon-diagonal-arrow": {
-    "thesaurus": [],
-    "group": "",
-    "related": []
+    "thesaurus": [
+      "arrows",
+      "grows",
+      "expands",
+      "bigger"
+    ],
+    "group": "action arrow",
+    "related": [
+      "icon-diagonal-arrow-alt"
+    ]
   },
-  "icon-diagonal-arrow-alt": {
-    "thesaurus": [],
-    "group": "",
-    "related": []
+  "": {
+    "thesaurus": [
+      "arrows",
+      "grows",
+      "expands",
+      "bigger"
+    ],
+    "group": "action arrow",
+    "related": [
+      "icon-diagonal-arrow"
+    ]
   },
   "icon-door-open": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "doors",
+      "entrances",
+      "exits",
+      "log out",
+      "logout",
+      "log in",
+      "login"
+    ],
+    "group": "item",
     "related": []
   },
   "icon-download-alt": {
@@ -4317,13 +4575,24 @@
     "related": []
   },
   "icon-edit": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "pencils",
+      "pens",
+      "edits",
+      "writers",
+      "authors",
+      "writes"
+    ],
+    "group": "item",
     "related": []
   },
   "icon-eject": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "ejects",
+      "up",
+      "top"
+    ],
+    "group": "action arrow box",
     "related": []
   },
   "icon-employee": {
@@ -4352,13 +4621,24 @@
     "related": []
   },
   "icon-equalizer": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "equalizers",
+      "equaliser",
+      "equalisers",
+      "settings",
+      "options",
+      "configuration"
+    ],
+    "group": "item tech hardware",
     "related": []
   },
   "icon-escape": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "out",
+      "escapes",
+      "exits"
+    ],
+    "group": "action arrow circle",
     "related": []
   },
   "icon-ethernet": {
@@ -4382,8 +4662,12 @@
     "related": []
   },
   "icon-facebook-like": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "thumbs up",
+      "likes",
+      "social media"
+    ],
+    "group": "item hand thumb",
     "related": []
   },
   "icon-factory": {
@@ -4397,13 +4681,24 @@
     "related": []
   },
   "icon-folders": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "files",
+      "documents",
+      "storage",
+      "library",
+      "components"
+    ],
+    "group": "item workplace",
     "related": []
   },
   "icon-folder": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "folders",
+      "filing",
+      "documents",
+      "stroage"
+    ],
+    "group": "item workplace",
     "related": []
   },
   "icon-folder-outline": {
@@ -4412,8 +4707,11 @@
     "related": []
   },
   "icon-folder-open": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "filing",
+      "documents"
+    ],
+    "group": "item workplace",
     "related": []
   },
   "icon-flowerpot": {
@@ -4457,8 +4755,15 @@
     "related": []
   },
   "icon-fingerprint": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "fingerprints",
+      "crimes",
+      "criminals",
+      "id",
+      "identification",
+      "biometrics"
+    ],
+    "group": "item security",
     "related": []
   },
   "icon-filter": {
@@ -4472,18 +4777,35 @@
     "related": []
   },
   "icon-files": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "storage",
+      "filing",
+      "filing cabinets",
+      "repository",
+      "repositories"
+    ],
+    "group": "item workplace",
     "related": []
   },
   "icon-file-cabinet": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "filing cabinets",
+      "offices",
+      "drawers",
+      "storage"
+    ],
+    "group": "item workplace",
     "related": []
   },
   "icon-female-symbol": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "woman",
+      "women",
+      "females",
+      "sexes",
+      "genders"
+    ],
+    "group": "misc",
     "related": []
   },
   "icon-footprints": {
@@ -4522,18 +4844,33 @@
     "related": []
   },
   "icon-handprint": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "hands",
+      "personalisation",
+      "personalization",
+      "ids",
+      "profiles"
+    ],
+    "group": "item hand",
     "related": []
   },
   "icon-handshake": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "meetings",
+      "handshakes",
+      "greetings",
+      "business"
+    ],
+    "group": "item hand",
     "related": []
   },
   "icon-handtool": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "hands",
+      "grabs",
+      "cursor"
+    ],
+    "group": "item hand",
     "related": []
   },
   "icon-hard-drive": {
@@ -4552,18 +4889,35 @@
     "related": []
   },
   "icon-gps": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "satellites",
+      "space",
+      "satnav",
+      "sat nav",
+      "satellite navigation",
+      "gps"
+    ],
+    "group": "item tech hardware",
     "related": []
   },
   "icon-help-alt": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "questions",
+      "question marks",
+      "assistance"
+    ],
+    "group": "misc",
     "related": []
   },
   "icon-height": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "heights",
+      "distances",
+      "spaces",
+      "spacing",
+      "vertical"
+    ],
+    "group": "action arrow box",
     "related": []
   },
   "icon-globe": {
@@ -4572,13 +4926,22 @@
     "related": []
   },
   "icon-hearts": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "love",
+      "care",
+      "caring",
+      "health"
+    ],
+    "group": "shape",
     "related": []
   },
   "icon-globe-inverted-europe-africa": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "planets",
+      "earth",
+      "world"
+    ],
+    "group": "item globe",
     "related": []
   },
   "icon-headset": {
@@ -4607,8 +4970,12 @@
     "related": []
   },
   "icon-globe-europe---africa": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "planets",
+      "earth",
+      "world"
+    ],
+    "group": "item globe",
     "related": []
   },
   "icon-hat": {
@@ -4637,13 +5004,25 @@
     "related": []
   },
   "icon-gift": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "gifts",
+      "presents",
+      "christmas",
+      "birthdays",
+      "giving",
+      "rewards",
+      "surprises"
+    ],
+    "group": "item",
     "related": []
   },
   "icon-handtool-alt": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "hands",
+      "grabs",
+      "cursor"
+    ],
+    "group": "item hand",
     "related": []
   },
   "icon-geometry": {
@@ -4677,8 +5056,11 @@
     "related": []
   },
   "icon-camera-roll": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "films",
+      "cameras"
+    ],
+    "group": "item tech",
     "related": []
   },
   "icon-bookmark": {
@@ -4687,8 +5069,15 @@
     "related": []
   },
   "icon-bill": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "currency",
+      "money",
+      "notes",
+      "one",
+      "1",
+      "bills"
+    ],
+    "group": "item money note",
     "related": []
   },
   "icon-baby-stroller": {
@@ -4735,8 +5124,12 @@
     "related": []
   },
   "icon-calendar-alt": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "dates",
+      "calendars",
+      "events"
+    ],
+    "group": "item",
     "related": []
   },
   "icon-calculator": {
@@ -4755,13 +5148,28 @@
     "related": []
   },
   "icon-bulleted-list": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "bulletpoints",
+      "bullets",
+      "ul",
+      "lists"
+    ],
+    "group": "shape box layout",
     "related": []
   },
   "icon-bug": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "ladybugs",
+      "lady bugs",
+      "ladybirds",
+      "lady birds",
+      "bugs",
+      "insects",
+      "minibeasts",
+      "wildlife",
+      "issues"
+    ],
+    "group": "item nature",
     "related": []
   },
   "icon-brush": {
@@ -4805,13 +5213,25 @@
     "related": []
   },
   "icon-box-open": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "boxes",
+      "storage",
+      "dropbox",
+      "packages",
+      "parcels",
+      "packaging",
+      "opens"
+    ],
+    "group": "item",
     "related": []
   },
   "icon-box-alt": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "filing",
+      "boxes",
+      "storage"
+    ],
+    "group": "item workplace",
     "related": []
   },
   "icon-books": {
@@ -4901,8 +5321,13 @@
     "related": []
   },
   "icon-book-alt-2": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "books",
+      "reading",
+      "documentation",
+      "library"
+    ],
+    "group": "item",
     "related": []
   },
   "icon-bones": {
@@ -4916,8 +5341,17 @@
     "related": []
   },
   "icon-book": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "books",
+      "dictionary",
+      "dictionaries",
+      "thesaurus",
+      "thesauruses",
+      "library",
+      "authors",
+      "manuals"
+    ],
+    "group": "item",
     "related": []
   },
   "icon-bill-yen": {
@@ -4936,8 +5370,18 @@
     "related": []
   },
   "icon-autofill": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "edits",
+      "editing",
+      "editor",
+      "writes",
+      "writing",
+      "text boxes",
+      "textboxes",
+      "pencils",
+      "pens"
+    ],
+    "group": "action",
     "related": []
   },
   "icon-bill-euro": {
@@ -4962,13 +5406,22 @@
     "related": []
   },
   "icon-attachment": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "paperclips",
+      "clippy",
+      "attachments",
+      "stationery"
+    ],
+    "group": "item workplace",
     "related": []
   },
   "icon-bell": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "bells",
+      "notifications",
+      "alerts"
+    ],
+    "group": "item",
     "related": []
   },
   "icon-article": {
@@ -4982,8 +5435,14 @@
     "related": []
   },
   "icon-art-easel": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "artworks",
+      "painting",
+      "paints",
+      "artist",
+      "gallary"
+    ],
+    "group": "picture",
     "related": []
   },
   "icon-beer-glass": {
@@ -5002,8 +5461,11 @@
     "related": []
   },
   "icon-arrow-right": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "arrows",
+      "forwards"
+    ],
+    "group": "action arrow",
     "related": []
   },
   "icon-battery-full": {
@@ -5012,8 +5474,11 @@
     "related": []
   },
   "icon-arrow-left": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "arrows",
+      "back"
+    ],
+    "group": "action arrow",
     "related": []
   },
   "icon-bars": {
@@ -5043,32 +5508,39 @@
   },
   "icon-application-window": {
     "thesaurus": [
-        "screen",
-        "window",
-        "sidebar"
+      "screen",
+      "window",
+      "sidebar"
     ],
-    "group": "application",
+    "group": "action window",
     "related": [
-        "icon-application-window-alt",
-        "icon-application-error",
-        "icon-section"
+      "icon-application-window-alt",
+      "icon-application-error",
+      "icon-section"
     ]
   },
   "icon-band-aid": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "bandaids",
+      "plasters",
+      "band aids",
+      "health",
+      "first aid",
+      "medical"
+    ],
+    "group": "item household",
     "related": []
   },
   "icon-application-window-alt": {
     "thesaurus": [
-        "screen",
-        "window"
+      "screen",
+      "window"
     ],
-    "group": "application",
+    "group": "action window",
     "related": [
-        "icon-application-window",
-        "icon-application-error",
-        "icon-section"
+      "icon-application-window",
+      "icon-application-error",
+      "icon-section"
     ]
   },
   "icon-ball": {
@@ -5078,19 +5550,19 @@
   },
   "icon-application-error": {
     "thesaurus": [
-        "screen",
-        "window",
-        "404",
-        "500",
-        "page not found",
-        "server error",
-        "fault"
+      "screen",
+      "window",
+      "404",
+      "500",
+      "page not found",
+      "server error",
+      "fault"
     ],
-    "group": "application",
+    "group": "action window",
     "related": [
-        "icon-application-window-alt",
-        "icon-application",
-        "icon-section"
+      "icon-application-window-alt",
+      "icon-application",
+      "icon-section"
     ]
   },
   "icon-badge-restricted": {
@@ -5190,15 +5662,15 @@
   },
   "icon-section": {
     "thesaurus": [
-        "screen",
-        "window",
-        "sidebar"
+      "screen",
+      "window",
+      "sidebar"
     ],
-    "group": "application",
+    "group": "action window",
     "related": [
-        "icon-application-window-alt",
-        "icon-application-error",
-        "icon-application"
+      "icon-application-window-alt",
+      "icon-application-error",
+      "icon-application"
     ]
   },
   "icon-traffic": {
