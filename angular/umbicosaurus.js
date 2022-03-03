@@ -39,8 +39,6 @@ $http.get('/App_Plugins/Umbicosaurus/thesaurus.json')
         vm.thesaurus = data.data;
         supplementData();
     });
-
-console.log(vm);
 }
 
 angular.module('umbraco').controller('Umbicosaurus.Editors.IconPickerController', UmbicosaurusPickerController);
