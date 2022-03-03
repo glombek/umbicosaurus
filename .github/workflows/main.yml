@@ -4,16 +4,18 @@ name: CI
 
 env:
   OUTPUT: ./Output
-  LIBRARY_FOLDER: ./Umbicosaurus/Umbicosaurus.Demo
+  LIBRARY_FOLDER: ./umbraco/Umbicosaurus.Demo
   CONFIG: release
 
 # Controls when the action will run. 
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+    #branches: [ main ]
+    tags
+    - v[0-9]+.[0-9]+.[0-9]+
+  # pull_request:
+  #   branches: [ main ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -30,6 +32,9 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
+      - name: Set VERSION variable from tag
+        run: echo "VERSION=${GITHUB_REF/refs\/tags\/v/}" >> $GITHUB_ENV
+
       - name: Setup NuGet.exe for use with actions
         # You may pin to the exact commit or the version.
         # uses: NuGet/setup-nuget@04b0c2b8d1b97922f67eca497d7cf0bf17b8ffe1
@@ -43,14 +48,14 @@ jobs:
           nuget-api-key-source: https://api.nuget.org/v3/index.json# optional  
 
       # - name: Create NuGet package file
-      #   run: dotnet pack ${{ env.LIBRARY_FOLDER }} -c ${{ env.CONFIG }} --no-build --include-symbols -o ${{ env.OUTPUT }} /p:version=0.1.${{ github.run_id }}
+      #   run: dotnet pack ${{ env.LIBRARY_FOLDER }} -c ${{ env.CONFIG }} --no-build --include-symbols -o ${{ env.OUTPUT }} /p:version=${VERSION}
 
       - name: Create NuGet package (nuget.exe)
-        run: nuget.exe pack ${{ env.LIBRARY_FOLDER }}/Umbicosaurus.nuspec -OutputDirectory ${{ env.OUTPUT }} -Version 0.1.${{ github.run_id }}
+        run: nuget.exe pack ${{ env.LIBRARY_FOLDER }}/Umbicosaurus.nuspec -OutputDirectory ${{ env.OUTPUT }} -Version ${VERSION}
 
         
       - name: Push NuGet package (nuget.exe)
-        run: nuget.exe push ${{ env.OUTPUT }}/Umbicosaurus.0.1.${{ github.run_id }}.nupkg -ApiKey ${{ secrets.NUGET_DEPLOY_KEY }} -Source https://api.nuget.org/v3/index.json
+        run: nuget.exe push ${{ env.OUTPUT }}/Umbicosaurus.${VERSION}.nupkg -ApiKey ${{ secrets.NUGET_DEPLOY_KEY }} -Source https://api.nuget.org/v3/index.json
 
 
       # # For the push step to work you will need to create an api key on NuGet, and save it as a secret on Github with the name "NUGET_DEPLOY_KEY"
@@ -64,7 +69,7 @@ jobs:
         run: dotnet tool install Umbraco.Tools.Packages --global
 
       - name: Create Umbraco package file
-        run: UmbPack pack ./package.xml -o ${{ env.OUTPUT }} -v 0.1.${{ github.run_id }}
+        run: UmbPack pack ./umbraco/package.xml -o ${{ env.OUTPUT }} -v ${VERSION}
       
       - name: Push to Our
-        run: umbpack push -k ${{ secrets.UMBRACO_DEPLOY_KEY }} ${{ env.Output }}/Umbicosaurus_0.1.${{ github.run_id }}.zip
+        run: umbpack push -k ${{ secrets.UMBRACO_DEPLOY_KEY }} ${{ env.Output }}/Umbicosaurus_${VERSION}.zip
