@@ -1,18 +1,27 @@
 /// <binding ProjectOpened='default' />
 const { watch, src, dest } = require('gulp');
 
-const externalFiles = ['../../angular/**', '../../thesaurus.json'];
+const pluginFiles = ['../../angular/**', '../../thesaurus.json'];
+const authorFiles = ['../../thesaurus.schema.json'];
 
-function copyFiles()
+function copyPluginFiles()
 {
-    return src(externalFiles)
+    return src(pluginFiles)
         .pipe(dest('App_Plugins/Umbicosaurus/'));
+}
+
+function copyAuthorFiles() {
+    return src(authorFiles)
+        .pipe(dest('App_Plugins/Umbicosauthor/'));
 }
 
 function defaultTask()
 {
-    copyFiles();
-    watch(externalFiles, copyFiles);
+    copyPluginFiles();
+    watch(pluginFiles, copyPluginFiles);
+
+    copyAuthorFiles();
+    watch(authorFiles, copyAuthorFiles);
 }
 
 exports.default = defaultTask

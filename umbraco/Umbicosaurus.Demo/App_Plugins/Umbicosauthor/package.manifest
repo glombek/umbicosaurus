@@ -1,0 +1,17 @@
+﻿{
+  "dashboards": [
+    {
+      "alias": "umbicosauthor",
+      "view": "/App_Plugins/umbicosauthor/UmbicosauthorDashboard.html",
+      "sections": [ "content" ],
+      "weight": -10,
+      "access": [
+        { "deny": "" },
+        { "grant": "admin" }
+      ]
+    }
+  ],
+  "javascript": [
+    "~/App_Plugins/umbicosauthor/umbicosauthor.js"
+  ]
+}

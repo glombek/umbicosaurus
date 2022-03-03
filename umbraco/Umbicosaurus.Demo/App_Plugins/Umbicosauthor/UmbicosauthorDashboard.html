@@ -1,0 +1,43 @@
+﻿<div class="umbicosauthor-dashboard"
+     ng-controller="Umbicosaurus.Dashboards.UmbicosauthorDashboardController as vm">
+
+    <form id="" ng-submit="vm.save()" ng-if="vm.currentIcon">
+        <umb-box>
+            <umb-box-content class="form-horizontal">
+
+                <h1>What does <strong>{{vm.currentIcon.name}}</strong> look like?</h1>
+                <div style="font-size:100px"><umb-icon class="{{vm.currentIcon.name}}" icon="{{vm.currentIcon.name}}"></umb-icon></div>
+
+                <umb-control-group label="Thesaurus" descripton="The thesaurus is a list of terms you'd like to search for to find the icon. Partial matching works so use plurals here where appropriate (and also the singular if the spelling is different). One per line.">
+                    <textarea name="thesaurusEntries" ng-model="vm.thesaurusEntries"></textarea>
+                </umb-control-group>
+
+                <umb-control-group label="Category" descripton="">
+                    <select name="category" ng-model="vm.category" ng-options="item as item for item in vm.schema.patternProperties['icon-.+'].properties.group.enum track by item">
+                    </select>
+                </umb-control-group>
+
+
+                <umb-button action="vm.save()"
+                            label="Save"
+                            type="button"
+                            button-style="info">
+                </umb-button>
+            </umb-box-content>
+        </umb-box>
+    </form>
+
+
+    <umb-box>
+        <umb-box-header title="Output">
+            <umb-button action="vm.export()"
+                        label="Export output"
+                        type="button"
+                        button-style="primary">
+            </umb-button>
+        </umb-box-header>
+        <umb-box-content>
+            <output><pre>{{vm.thesaurus | json :  2}}</pre></output>
+        </umb-box-content>
+    </umb-box>
+</div>
