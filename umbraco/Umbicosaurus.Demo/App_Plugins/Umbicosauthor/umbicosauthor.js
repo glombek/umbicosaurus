@@ -18,7 +18,7 @@
                 }
             }
             vm.sorted = vm.sorted.sort(function (a, b) {
-                return a.info.thesaurus.length - b.info.thesaurus.length;
+                return (a.info.thesaurus.length + Math.random()) - (b.info.thesaurus.length + Math.random());
             });
 
             pickIcon();
