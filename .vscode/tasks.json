@@ -1,0 +1,25 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "run",
+			"path": "umbraco/Umbicosaurus.Demo/",
+			"problemMatcher": [],
+			"label": "npm: run - umbraco/Umbicosaurus.Demo",
+			"detail": "dotnet run"
+		},
+		{
+			"type": "npm",
+			"script": "build",
+			"path": "umbraco/Umbicosaurus.Demo/",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": [],
+			"label": "npm: build - umbraco/Umbicosaurus.Demo",
+			"detail": "npm install && gulp && dotnet build && gulp watch"
+		}
+	]
+}

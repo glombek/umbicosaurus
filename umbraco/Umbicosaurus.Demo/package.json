@@ -1,6 +1,11 @@
 {
   "name": "umbicosaurus.demo",
-  "devDependencies": {
+  "private": true,
+  "scripts": {
+    "build": "npm install && gulp && dotnet build && gulp watch",
+    "run": "dotnet run"
+  },
+  "dependencies": {
     "gulp": "^4.0.2"
   }
 }

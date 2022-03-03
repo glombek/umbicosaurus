@@ -1,4 +1,3 @@
-/// <binding ProjectOpened='default' />
 const { watch, src, dest } = require('gulp');
 
 const pluginFiles = ['../../angular/**', '../../thesaurus.json'];
@@ -15,13 +14,16 @@ function copyAuthorFiles() {
         .pipe(dest('App_Plugins/Umbicosauthor/'));
 }
 
-function defaultTask()
+function defaultTask(cb)
 {
     copyPluginFiles();
-    watch(pluginFiles, copyPluginFiles);
-
     copyAuthorFiles();
+    cb();
+}
+
+function watchTask(cb) {
     watch(authorFiles, copyAuthorFiles);
 }
 
-exports.default = defaultTask
+exports.default = defaultTask;
+exports.watch = watchTask;

@@ -1,0 +1,13 @@
+.umbicosaurus-loader {
+    /*Animation inside svg file*/
+    margin: 20px;
+}
+
+.umbicosaurus-dino {
+    text-align: center;
+}
+
+    .umbicosaurus-dino img {
+        width: 180px;
+        max-width: 100%;
+    }
