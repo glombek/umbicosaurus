@@ -3574,7 +3574,7 @@
   },
   "icon-mouse": {
     "thesaurus": [],
-    "group": "",
+    "group": "item tech hardware",
     "related": []
   },
   "icon-movie-alt": {
@@ -3618,23 +3618,42 @@
     "related": []
   },
   "icon-map-alt": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "compasses",
+      "maps",
+      "navigation"
+    ],
+    "group": "item household",
     "related": []
   },
   "icon-male-symbol": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "male",
+      "men",
+      "man"
+    ],
+    "group": "misc",
     "related": []
   },
   "icon-male-and-female": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "people",
+      "person",
+      "users"
+    ],
+    "group": "user multiple",
     "related": []
   },
   "icon-mailbox": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "intrays",
+      "in trays",
+      "outtrays",
+      "out trays",
+      "inboxes",
+      "mailboxes"
+    ],
+    "group": "item workplace",
     "related": []
   },
   "icon-magnet": {
@@ -3648,18 +3667,38 @@
     "related": []
   },
   "icon-mobile": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "phones",
+      "cellphones",
+      "cell",
+      "mobiles",
+      "telephones"
+    ],
+    "group": "item household phone",
     "related": []
   },
   "icon-logout": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "exits",
+      "doors",
+      "entrances",
+      "log out",
+      "log in",
+      "login"
+    ],
+    "group": "item",
     "related": []
   },
   "icon-log-out": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "exits",
+      "doors",
+      "entrances",
+      "logout",
+      "login",
+      "login"
+    ],
+    "group": "item",
     "related": []
   },
   "icon-layers": {
@@ -3780,8 +3819,10 @@
     "related": []
   },
   "icon-infinity": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "loops"
+    ],
+    "group": "maths",
     "related": []
   },
   "icon-indent": {
@@ -3839,8 +3880,15 @@
     "related": []
   },
   "icon-food": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "cutlery",
+      "knife",
+      "knives",
+      "forks",
+      "restaurants",
+      "eats"
+    ],
+    "group": "item food",
     "related": []
   },
   "icon-favorite": {
@@ -3888,8 +3936,13 @@
     "related": []
   },
   "icon-chip-alt": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "chips",
+      "processors",
+      "microprocessors",
+      "hardware"
+    ],
+    "group": "item tech hardware",
     "related": []
   },
   "icon-chess": {
@@ -3898,18 +3951,32 @@
     "related": []
   },
   "icon-checkbox": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "checks",
+      "ticks",
+      "checkboxes",
+      "check boxes",
+      "tickboxes",
+      "tick boxes"
+    ],
+    "group": "misc",
     "related": []
   },
   "icon-checkbox-empty": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "boxes",
+      "squares",
+      "rounded",
+      "corners"
+    ],
+    "group": "shape box",
     "related": []
   },
   "icon-checkbox-dotted": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "squares"
+    ],
+    "group": "shape box",
     "related": []
   },
   "icon-checkbox-dotted-active": {
@@ -3918,8 +3985,11 @@
     "related": []
   },
   "icon-check": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "ticks",
+      "checks"
+    ],
+    "group": "misc",
     "related": []
   },
   "icon-chat": {
@@ -3960,8 +4030,13 @@
     "related": []
   },
   "icon-cash-register": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "tills",
+      "payments",
+      "checkouts",
+      "cashiers"
+    ],
+    "group": "item money",
     "related": []
   },
   "icon-car": {
@@ -3990,13 +4065,27 @@
     "related": []
   },
   "icon-circus": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "tents",
+      "huts"
+    ],
+    "group": "building",
     "related": []
   },
   "icon-client": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "users",
+      "people",
+      "person",
+      "man",
+      "men",
+      "male",
+      "clients",
+      "tie",
+      "smart",
+      "suits"
+    ],
+    "group": "user special",
     "related": []
   },
   "icon-clothes-hanger": {
@@ -4009,13 +4098,27 @@
     "related": []
   },
   "icon-cloud-drive": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "hdd",
+      "ssd",
+      "harddrives",
+      "hard drives",
+      "hard disks",
+      "hard discs",
+      "harddisks",
+      "harddiscs"
+    ],
+    "group": "item tech hardware",
     "related": []
   },
   "icon-cloud-upload": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "clouds",
+      "uploads",
+      "cdn",
+      "arrows"
+    ],
+    "group": "action arrow",
     "related": []
   },
   "icon-cloud": {
@@ -4024,13 +4127,20 @@
     "related": []
   },
   "icon-cloudy": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "clouds",
+      "weather",
+      "overcast"
+    ],
+    "group": "weather",
     "related": []
   },
   "icon-clubs": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "cards",
+      "suits"
+    ],
+    "group": "misc game",
     "related": []
   },
   "icon-cocktail": {
@@ -4044,8 +4154,15 @@
     "related": []
   },
   "icon-coffee": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "tea",
+      "cups",
+      "mugs",
+      "drinks",
+      "beverages",
+      "cafes"
+    ],
+    "group": "item food drink",
     "related": []
   },
   "icon-coin-dollar": {
@@ -4128,8 +4245,13 @@
     "related": []
   },
   "icon-combination-lock": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "padlocks",
+      "locks",
+      "locked",
+      "secure"
+    ],
+    "group": "item security lock",
     "related": [
       "icon-combination-lock-open",
       "icon-lock",
@@ -4140,8 +4262,12 @@
     ]
   },
   "icon-combination-lock-open": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "unlocks",
+      "padlocks",
+      "insecure"
+    ],
+    "group": "item security lock",
     "related": [
       "icon-combination-lock",
       "icon-unlocked",
@@ -4157,8 +4283,13 @@
     "related": []
   },
   "icon-columns": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "lines",
+      "three",
+      "3",
+      "grills"
+    ],
+    "group": "shape box layout",
     "related": []
   },
   "icon-colorpicker": {
@@ -4197,8 +4328,10 @@
     "related": []
   },
   "icon-coins-pound": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "gbp"
+    ],
+    "group": "item money coin",
     "related": []
   },
   "icon-coins-pound-alt": {
@@ -4227,8 +4360,16 @@
     "related": []
   },
   "icon-conversation-alt": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "chats",
+      "messages",
+      "messaging",
+      "talking",
+      "communications",
+      "conversations",
+      "speech bubbles"
+    ],
+    "group": "action",
     "related": []
   },
   "icon-conversation": {
@@ -4293,8 +4434,17 @@
     "related": []
   },
   "icon-crown": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "crowns",
+      "tiaras",
+      "rings",
+      "royals",
+      "kings",
+      "queens",
+      "princes",
+      "princesses"
+    ],
+    "group": "item clothing",
     "related": []
   },
   "icon-cupcake": {
@@ -4349,8 +4499,12 @@
     "related": []
   },
   "icon-desktop": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "desktops",
+      "docks",
+      "taskbars"
+    ],
+    "group": "action window",
     "related": []
   },
   "icon-donate": {
@@ -4474,13 +4628,24 @@
     "related": []
   },
   "icon-directions-alt": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "arrows",
+      "three",
+      "3",
+      "options",
+      "alternatives"
+    ],
+    "group": "action arrow",
     "related": []
   },
   "icon-diploma": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "certificates",
+      "awards",
+      "diplomas",
+      "qualifications"
+    ],
+    "group": "item award",
     "related": []
   },
   "icon-diploma-alt": {
@@ -4489,8 +4654,13 @@
     "related": []
   },
   "icon-dice": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "die",
+      "dice",
+      "games",
+      "board games"
+    ],
+    "group": "misc game",
     "related": []
   },
   "icon-diamonds": {
@@ -4560,8 +4730,13 @@
     "related": []
   },
   "icon-drop": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "raining",
+      "drops",
+      "paint",
+      "teardrops"
+    ],
+    "group": "shape",
     "related": []
   },
   "icon-eco": {
@@ -4616,8 +4791,13 @@
     "related": []
   },
   "icon-enter": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "down",
+      "arrows",
+      "angle",
+      "underneath"
+    ],
+    "group": "action arrow",
     "related": []
   },
   "icon-equalizer": {
@@ -4676,8 +4856,18 @@
     "related": []
   },
   "icon-font": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "fonts",
+      "a",
+      "letters",
+      "alphabets",
+      "characters",
+      "italic",
+      "styling",
+      "styles",
+      "css"
+    ],
+    "group": "action format",
     "related": []
   },
   "icon-folders": {
@@ -4984,13 +5174,26 @@
     "related": []
   },
   "icon-globe-asia": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "planets",
+      "earth",
+      "world",
+      "globes",
+      "australia",
+      "australasia",
+      "oceania"
+    ],
+    "group": "item globe",
     "related": []
   },
   "icon-globe-alt": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "globes",
+      "spheres",
+      "world",
+      "earth"
+    ],
+    "group": "item globe",
     "related": []
   },
   "icon-hard-drive-alt": {
@@ -5094,8 +5297,13 @@
     "related": []
   },
   "icon-adressbook": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "addresses",
+      "book",
+      "planner",
+      "contacts"
+    ],
+    "group": "item",
     "related": []
   },
   "icon-add": {
@@ -5198,8 +5406,16 @@
     "related": []
   },
   "icon-brick": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "bricks",
+      "legos",
+      "builds",
+      "toys",
+      "children",
+      "kids",
+      "components"
+    ],
+    "group": "item",
     "related": []
   },
   "icon-brackets": {
@@ -5208,8 +5424,13 @@
     "related": []
   },
   "icon-box": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "packages",
+      "presents",
+      "gifts",
+      "boxes"
+    ],
+    "group": "item",
     "related": []
   },
   "icon-box-open": {
@@ -5286,8 +5507,14 @@
     "related": []
   },
   "icon-bird": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "pigeons",
+      "doves",
+      "birds",
+      "avians",
+      "animals"
+    ],
+    "group": "item nature",
     "related": []
   },
   "icon-birthday-cake": {
@@ -5360,8 +5587,13 @@
     "related": []
   },
   "icon-award": {
-    "thesaurus": [],
-    "group": "",
+    "thesaurus": [
+      "awards",
+      "prizes",
+      "medals",
+      "rosettes"
+    ],
+    "group": "item award",
     "related": []
   },
   "icon-bill-pound": {
