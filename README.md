@@ -1,3 +1,8 @@
+> [!IMPORTANT]
+> The functionality this package aimed to create is being [merged into the core Umbraco functionality](https://github.com/umbraco/Umbraco-CMS/pull/22436). Please contribute any changes to the core repository.
+>
+> Thank you for all your contributions to this project, they all live on in their new home for everyone to enjoy!
+
 <img src="/icons/817743-dinosaur-avatars-situations/svg/049-happy.svg" width="40%" alt="" />
 
 # Umbicosaurus
